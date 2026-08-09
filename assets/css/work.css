@@ -41,6 +41,10 @@
   border-right: 2px solid transparent;
 }
 
+.work-cat .cat-short {
+  display: none;
+}
+
 .work-cat:hover {
   color: var(--side-text);
 }
@@ -272,34 +276,65 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .work-layout .side {
+  /* Only the Work category rail belongs above content; case meta stays after */
+  .work-layout .side:has(.work-cats) {
     order: -1;
+    max-width: 100%;
+    min-width: 0;
+    padding: 0.9rem 1rem 1rem;
+  }
+
+  .work-layout .side {
     max-width: 100%;
     min-width: 0;
   }
 
+  .work-rail {
+    padding-bottom: 0;
+  }
+
+  .work-rail-label {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Equal chip grid — avoids ragged flex wrap / clipped labels */
   .work-cats {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.35rem;
-    overflow: visible;
-    padding-bottom: 0.25rem;
     width: 100%;
   }
 
   .work-cat {
-    flex: 0 1 auto;
-    width: auto;
-    max-width: 100%;
-    border-right: 0;
-    border-bottom: 2px solid transparent;
+    width: 100%;
+    min-width: 0;
+    border: 1px solid #3a3a3a;
+    border-right: 1px solid #3a3a3a;
+    border-radius: 2px;
     white-space: normal;
-    padding: 0.45rem 0.55rem;
+    line-height: 1.25;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.78rem;
+    background: #242424;
+    text-align: center;
+  }
+
+  .work-cat .cat-long {
+    display: none;
+  }
+
+  .work-cat .cat-short {
+    display: inline;
   }
 
   .work-cat.is-active {
-    border-right-color: transparent;
-    border-bottom-color: #e6e6e6;
+    border-color: #e6e6e6;
+    background: #2e2e2e;
+    color: var(--side-text);
+  }
+
+  .featured h1 {
+    font-size: 1.2rem;
   }
 
   .featured-meta div {
@@ -307,9 +342,46 @@
     gap: 0.2rem;
   }
 
+  .featured-meta dt {
+    margin-bottom: 0.1rem;
+  }
+
   .stage-figure,
   .case-figure {
     max-width: 100%;
     overflow: hidden;
+  }
+
+  .evidence-grid.two {
+    grid-template-columns: 1fr;
+  }
+
+  .case-lede {
+    max-width: none;
+  }
+
+  .work-main,
+  .case-main {
+    padding-top: 1.15rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .work-layout .side {
+    padding: 0.8rem 1rem 0.9rem;
+  }
+
+  .work-cats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .work-cat {
+    font-size: 0.74rem;
+    padding: 0.4rem 0.4rem;
+  }
+
+  .work-main,
+  .case-main {
+    padding-top: 1rem;
   }
 }
