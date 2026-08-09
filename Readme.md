@@ -1,45 +1,28 @@
-# Personal Portfolio 🔥
-> https://bmborne.github.io/
+# Personal Portfolio
 
-:star: Star me on GitHub — it helps!
+Canonical public site for **Boniphace Mkindi — Data & Analytics Engineer**.
 
+- **Home** — positioning, experience, capabilities  
+- **Work** — evidence library (case scaffolds + synthetic visuals)
 
-### Website Preview
-#### Home Page
-#### About Page
-#### Projects Page
+Live: [https://bmborne.github.io/](https://bmborne.github.io/)
 
-:star: Star me on GitHub — it helps!
+Messaging: `Docs/BRAND_SOURCE_OF_TRUTH.md`  
+Work phases: `Docs/WORK_PHASES.md`
 
-## Features 📋
-⚡️ Fully Responsive\
-⚡️ Valid HTML5 & CSS3\
-⚡️ Typing animation using `Typed.js`\
-⚡️ Easy to modify
+## Local preview
 
-## Installation & Deployment 📦
-- Clone the repository and modify the content of <b>index.html</b> 
-- Add or remove images from `assets/img/` directory as per your requirement.
-- Update the info of `projects` folder according to your need
-- Use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create your own website.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io` and push the generated code to the `master` branch.
+```bash
+python -m http.server 3000
+```
 
-## Sections 📚
-✔️ About\
-✔️ Interests\
-✔️ Education\
-✔️ Online Certification\
-✔️ Experience\
-✔️ Projects \
-✔️ Skills \
-✔️ Resume\
-✔️ Contact Info
+- Home: http://127.0.0.1:3000/  
+- Work: http://127.0.0.1:3000/work.html  
 
+## Deploy
 
+Push to `main` on `bmborne.github.io` (GitHub Pages).
 
-## Tools Used 🛠️
-* <b>GitHub Pages</b> - To host my static website (HTML, CSS, JS).
+## Next evidence step
 
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
+**Phase B2:** synthetic multi-entity finance model + Power BI screenshots (see `Docs/WORK_PHASES.md`).

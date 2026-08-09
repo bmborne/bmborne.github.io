@@ -1,0 +1,9 @@
+check_code,check_name,result,area,period,dataset
+GL-BAL,Trial balance nets to zero,Pass,Period close,2026-06,SYNTHETIC_PUBLIC_SAFE
+INV-NEG,No negative on-hand quantities,Pass,Inventory,2026-06,SYNTHETIC_PUBLIC_SAFE
+SO-CUST,Sales orders have valid customer,Pass,Sales,2026-06,SYNTHETIC_PUBLIC_SAFE
+PO-VEND,Purchase orders have valid vendor,Pass,Purchasing,2026-06,SYNTHETIC_PUBLIC_SAFE
+POST-DATE,Posted docs within open periods,Warn,Posting,2026-06,SYNTHETIC_PUBLIC_SAFE
+UOM-MAP,Item UoM mapping complete,Fail,Master data,2026-06,SYNTHETIC_PUBLIC_SAFE
+DIM-COST,Cost centre dimension populated,Warn,Dimensions,2026-06,SYNTHETIC_PUBLIC_SAFE
+AR-MATCH,AR subledger vs G/L control,Pass,Finance,2026-06,SYNTHETIC_PUBLIC_SAFE

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-labelledby="title desc">
+  <title id="title">Synthetic multi-entity finance analytics flow</title>
+  <desc id="desc">Flow from synthetic operating-company sources through a dimensional model and finance semantic model to Power BI management reporting.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1a5f7a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="280" fill="#eef5f8"/>
+  <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a5f7a">SYNTHETIC - PUBLIC-SAFE REFERENCE</text>
+
+  <rect x="24" y="56" width="120" height="64" rx="4" fill="#ffffff" stroke="#8aabb8"/>
+  <text x="84" y="84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">OpCo A-C</text>
+  <text x="84" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">ERP-style facts</text>
+
+  <rect x="24" y="140" width="120" height="64" rx="4" fill="#ffffff" stroke="#8aabb8"/>
+  <text x="84" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Group inputs</text>
+  <text x="84" y="186" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">FX / calendar</text>
+
+  <path d="M154 88 H190" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M154 172 H190" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="200" y="88" width="140" height="88" rx="4" fill="#ffffff" stroke="#1a5f7a" stroke-width="1.5"/>
+  <text x="270" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Dimensional model</text>
+  <text x="270" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Entity / Account</text>
+  <text x="270" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Period / Scenario</text>
+
+  <path d="M350 132 H386" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="396" y="88" width="140" height="88" rx="4" fill="#ffffff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="466" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Finance semantic</text>
+  <text x="466" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">P&amp;L / Variance</text>
+  <text x="466" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">MTD / YTD / LFL</text>
+
+  <path d="M546 132 H582" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="592" y="88" width="104" height="88" rx="4" fill="#1a5f7a"/>
+  <text x="644" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Power BI</text>
+  <text x="644" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#d7eaf0">Mgmt views</text>
+
+  <rect x="200" y="208" width="496" height="48" rx="4" fill="#ffffff" stroke="#c5d9e2"/>
+  <text x="448" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5a6f7a">Controls: definitions / reconciliation / validation / access</text>
+</svg>

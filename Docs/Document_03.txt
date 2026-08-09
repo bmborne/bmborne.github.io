@@ -1,0 +1,238 @@
+# Phase 1 completed: portfolio and brand foundation
+
+I started with the portfolio because it should become the **canonical source of truth** for every other public asset: LinkedIn, GitHub, CV, newsletter, case studies and future presentations.
+
+The new central proposition is:
+
+> **Boniphace Mkindi — Data & Analytics Engineer**
+> Turning finance, ERP and operational data into trusted analytics and practical business solutions.
+
+This preserves your engineering and data background while directing the market toward the professional lane you are actively building:
+
+> **Finance Analytics + Power BI + Microsoft Fabric + ERP & Business Applications + Applied AI**
+
+It follows the evidence and trust principles established in our re-evaluation: one focused market identity, accurate ownership language, public-safe case studies, and no in-progress qualification presented as completed. 
+
+## What has been created
+
+### 1. A complete new portfolio
+
+The old template has been replaced with an original, lightweight site containing:
+
+* a focused professional homepage;
+* four connected capability pillars;
+* a concise experience narrative;
+* a clearly labelled professional-development section;
+* professional writing and contact sections;
+* responsive desktop and mobile navigation;
+* accessible semantic HTML;
+* no external template dependency;
+* no tracking scripts;
+* no public telephone number;
+* no residential address;
+* no unsupported achievement percentages.
+
+[Open the single-file portfolio preview](sandbox:/mnt/data/boniphace-portfolio-preview.html)
+
+[Download the deploy-ready GitHub Pages package](sandbox:/mnt/data/boniphace-portfolio-v1.zip)
+
+The preview is self-contained. The ZIP is the package that should replace the current contents of the `bmborne.github.io` repository.
+
+---
+
+### 2. Three public-safe case studies
+
+The portfolio now contains substantive pages rather than a generic project gallery.
+
+#### Finance Analytics & Group Reporting
+
+This positions your current reporting experience around:
+
+* Power BI;
+* management and group reporting;
+* P&L, variance, forecast, MTD and YTD;
+* semantic modelling;
+* KPI governance;
+* reconciliation;
+* Microsoft Fabric evaluation;
+* measurable reporting outcomes.
+
+It deliberately states that you are **contributing to the workstream**, not claiming to own the complete enterprise architecture.
+
+#### ERP Reporting & Business Applications
+
+This presents your Business Central experience around:
+
+* reporting requirements;
+* business processes;
+* data validation;
+* migration controls;
+* UAT;
+* user adoption;
+* stakeholder communication;
+* benefits realisation.
+
+It also clearly says that you are not claiming to lead the entire Business Central configuration.
+
+#### Telecom Operations Anomaly Detection
+
+This converts the strongest parts of your MSc engineering work into a professional case study covering:
+
+* safety-gated data extraction;
+* anonymisation;
+* bronze, silver and gold layers;
+* testable Python workflows;
+* data-readiness auditing;
+* reproducibility;
+* privacy and operational controls;
+* limitations and next evidence requirements.
+
+The public repository is not linked because its disclosure and governance position still needs to be resolved.
+
+---
+
+### 3. A Brand Source of Truth
+
+I created a master messaging document that defines:
+
+* your canonical public name;
+* current and target professional titles;
+* core proposition;
+* four capability pillars;
+* target audiences;
+* primary and secondary search terms;
+* approved wording for LinkedIn, GitHub, CV and presentations;
+* terms that should be removed;
+* evidence and confidentiality rules;
+* weekly update process;
+* cross-channel SEO rules.
+
+[Open the Brand Source of Truth](sandbox:/mnt/data/boniphace-portfolio-v1/BRAND_SOURCE_OF_TRUTH.md)
+
+The key channel labels are now:
+
+| Channel           | Canonical positioning                                                                                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Portfolio**     | Data & Analytics Engineer                                                                                                              |
+| **LinkedIn**      | Data & Analytics Engineer | Power BI, Microsoft Fabric, Finance Reporting & ERP Analytics | Business Applications | Applied AI         |
+| **GitHub**        | Data & Analytics Engineer building public-safe reference projects in finance analytics, Microsoft Fabric, ERP reporting and applied AI |
+| **CV**            | Data & Analytics Engineer — Finance Analytics & Business Applications                                                                  |
+| **Presentations** | Boniphace Mkindi | Data & Analytics Engineer | Power BI · Fabric · ERP · Applied AI                                                    |
+
+This language will be reused—not reinvented—when we update each platform.
+
+---
+
+### 4. Search-engine foundations
+
+The package includes:
+
+* a consistent page title and visible heading;
+* accurate meta descriptions;
+* canonical URLs;
+* Open Graph and social-sharing metadata;
+* `Person`, `WebSite`, `WebPage`, `CreativeWork` and breadcrumb JSON-LD;
+* your canonical name and alternate name;
+* links connecting the portfolio, LinkedIn and GitHub;
+* `robots.txt`;
+* `sitemap.xml`;
+* a web manifest;
+* a custom 404 page;
+* descriptive URLs for each case study;
+* a branded social-sharing image.
+
+Google may use the page title, visible main heading, Open Graph title, page content and link text when generating search-result titles. Structured data can help Google understand a page but does not guarantee a ranking or rich result. The site therefore aligns all of these signals instead of relying on keyword repetition. ([Google for Developers][1])
+
+LinkedIn states that public profiles are periodically reviewed by search engines and that public visibility, a complete profile and regular substantive updates support indexability. Search engines may still take several weeks to reflect changes. ([LinkedIn][2])
+
+[View the social-sharing card](sandbox:/mnt/data/boniphace-portfolio-v1/assets/boniphace-mkindi-social-card.png)
+
+---
+
+## Important integrity decisions
+
+### Your existing employment-date conflict was not silently resolved
+
+The CV says discoverIE began in **September 2024**, while LinkedIn shows **September 2025**.
+
+The new portfolio therefore says **“Current role”** without displaying a start date. We should add the exact date only after it is confirmed and corrected everywhere.
+
+### Credentials are shown by status
+
+The portfolio currently identifies:
+
+* PL-300 — **In progress**
+* DP-600 — **In progress**
+* FMVA — **In progress**
+* DAMA/CDMP Associate preparation — **In progress**
+* Microsoft AI Business Professional — **Planned**
+
+BIDA is not promoted on the homepage because it is not currently active and would weaken the priority message.
+
+### Current work is labelled accurately
+
+The site uses language such as:
+
+* supporting;
+* contributing;
+* developing;
+* evaluating;
+* translating requirements;
+* assisting with implementation.
+
+It does not use:
+
+* principal architect;
+* transformation lead;
+* enterprise owner;
+* certified professional before certification;
+* unsupported percentage improvements.
+
+### Confidentiality has been protected
+
+The portfolio does not disclose:
+
+* internal financial values;
+* company-specific mappings;
+* system credentials;
+* access methods;
+* production architecture;
+* internal screenshots;
+* security arrangements;
+* identifiable operating-company data.
+
+The future public Power BI and Fabric demonstrations should use synthetic companies and synthetic financial information.
+
+### A monogram is being used instead of the current website photographs
+
+The existing website photographs are not suitable for the new professional positioning, and the LinkedIn screenshot does not contain a sufficiently high-resolution version of your professional headshot.
+
+The site therefore uses a clean `BM` identity until the original professional headshot is available.
+
+---
+
+## Technical validation completed
+
+The package was checked for:
+
+* valid JSON-LD syntax;
+* valid sitemap XML;
+* valid manifest and brand JSON;
+* one primary heading per page;
+* titles and meta descriptions;
+* working internal file references;
+* responsive navigation structure;
+* clear professional, academic and in-progress labels.
+
+I have not deployed it directly because the connected GitHub identity currently has read access but does not have write permission to the `bmborne` repositories.
+
+## Three facts to confirm before publication
+
+1. **Exact discoverIE start date:** September 2024 or September 2025.
+2. **Official contractual title:** whether it must remain exactly “Data Engineer” or whether an approved functional descriptor can be added.
+3. **Public disclosure boundary:** whether discoverIE, Dynamics 365 Business Central and your group-finance reporting contribution may be named publicly in this form.
+
+Next step: confirm those three items and approve the canonical title; the LinkedIn headline, About section, discoverIE experience, skills, Featured section and banner copy will then be rewritten from the same Brand Source of Truth.
+
+[1]: https://developers.google.com/search/docs/appearance/structured-data/sd-policies "https://developers.google.com/search/docs/appearance/structured-data/sd-policies"
+[2]: https://www.linkedin.com/help/linkedin/answer/a543660 "https://www.linkedin.com/help/linkedin/answer/a543660"

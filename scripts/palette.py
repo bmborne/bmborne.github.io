@@ -1,0 +1,13 @@
+"""Shared chart colours for portfolio evidence visuals."""
+# Steel-teal palette: professional, not purple/glow defaults.
+BG = "#eef5f8"
+CARD = "#ffffff"
+INK = "#0f3d4f"
+MUTED = "#5a6f7a"
+GRID = "#d7e4ea"
+PRIMARY = "#1a5f7a"
+SECONDARY = "#2a9d8f"
+COMPARE = "#8aabb8"
+WARN = "#c47a2c"
+FAIL = "#9b2c2c"
+DARK = "#123844"

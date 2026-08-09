@@ -1,0 +1,8 @@
+test_id,test_name,result,area,dataset
+T-01,Bronze schema present,Pass,ingest,SYNTHETIC_PUBLIC_SAFE
+T-02,Site tokens only (no raw IDs),Pass,privacy,SYNTHETIC_PUBLIC_SAFE
+T-03,Silver null rate < 1%,Pass,dq,SYNTHETIC_PUBLIC_SAFE
+T-04,"Gold score in [0,1]",Pass,model,SYNTHETIC_PUBLIC_SAFE
+T-05,Run control: dry-run gate,Pass,ops,SYNTHETIC_PUBLIC_SAFE
+T-06,Production credentials absent,Pass,safety,SYNTHETIC_PUBLIC_SAFE
+T-07,Anomaly rate sanity band,Warn,model,SYNTHETIC_PUBLIC_SAFE

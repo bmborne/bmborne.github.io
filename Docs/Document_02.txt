@@ -1,0 +1,439 @@
+Yes. We now have enough material to stop treating LinkedIn, GitHub, the portfolio, the CV and the newsletter as separate things.
+
+They should become **one professional brand system**, with each channel doing a different job.
+
+I reviewed the current public portfolio, public GitHub profile, the repository ZIPs you uploaded, your LinkedIn screenshots/text, and the CV you uploaded. Your CV currently leads with “Data Scientist & AI Engineer,” contains a large academic-project section and gives discoverIE only four fairly generic bullets.  Your public portfolio is substantially further behind: it still introduces you as a “Telecommunication Engineer” and “Data Science Enthusiast,” contains outdated education/experience information, and publicly exposes detailed contact/location information. ([bmborne.github.io][1])
+
+There is enough here to build something much stronger.
+
+# 1. We need to change the professional story
+
+At the moment, a recruiter gets several different versions of you:
+
+* LinkedIn: **Data Scientist & Data Engineer | ML | NLP | MLOps | MCP | LLM-Ops**
+* Portfolio: **Telecommunication Engineer / Data Science Enthusiast**
+* CV: **Data Scientist & AI Engineer**
+* GitHub: **Data Scientist / ML engineer**
+* Current employment: ERP + Finance Reporting + Power BI + Business Applications + AI evaluation
+* Future ambition: business consulting + finance/investment + technology
+
+That fragmentation is probably hurting you more than lack of experience.
+
+The new story should be:
+
+> **I am a Data & Business Applications Consultant who combines enterprise analytics, Microsoft technologies, ERP, finance reporting and applied AI to improve business decision-making and operations.**
+
+And underneath that:
+
+> **Power BI | Microsoft Fabric | ERP & Business Applications | Finance Analytics | Data Governance | Applied AI**
+
+Your telecom background then becomes an advantage rather than your current identity.
+
+---
+
+# 2. The professional identity I recommend
+
+For approximately the next 12–18 months, I would position you as:
+
+## **Data & Business Applications Consultant**
+
+### Microsoft Data, Analytics, ERP and Applied AI
+
+Your professional capability model becomes:
+
+| Pillar                                | What it represents                                                                        |
+| ------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Business Intelligence & Analytics** | Power BI, semantic modelling, dashboards, executive reporting                             |
+| **Microsoft Data Platform**           | Fabric, OneLake, lakehouse/warehouse, pipelines, governance                               |
+| **Business Applications & ERP**       | Dynamics 365 Business Central, ERP implementation, requirements, UAT, process improvement |
+| **Finance Analytics**                 | Group reporting, P&L, variance, forecasting, LFL, MTD/YTD, management reporting           |
+| **Applied AI**                        | AI opportunity assessment, forecasting, automation, Copilot/agents                        |
+| **Data Management**                   | DAMA, quality, lineage, master data, governance, controls                                 |
+| **Consulting**                        | Requirements, stakeholder management, business cases, solution design, communication      |
+
+That is a coherent professional.
+
+You are no longer selling:
+
+> “I know Python, TensorFlow, Kubernetes, Kafka, MLOps, NLP, GCP, AWS…”
+
+You are selling:
+
+> **“I can understand a business problem, work with finance and operational stakeholders, design the data/application solution, build it using modern Microsoft technology, and demonstrate measurable value.”**
+
+That is much closer to the consultant you are trying to become.
+
+---
+
+# 3. Your new LinkedIn headline
+
+I would remove:
+
+> Data Scientist & Data Engineer | 8+ yrs in Telecom/Data | ML, NLP & MLOps | MCP Protocol, AI, LLM-OPS
+
+It is technically impressive but commercially confusing.
+
+My preferred version is:
+
+> **Data & Business Applications Consultant | Power BI & Microsoft Fabric | ERP Analytics | Finance Reporting | Applied AI | MSc Data Science**
+
+Another slightly more technical alternative:
+
+> **Microsoft Data & Analytics Consultant | Power BI • Fabric • ERP & Business Applications • Finance Analytics • Applied AI**
+
+And when you have passed PL-300 and DP-600:
+
+> **Microsoft Certified Data & Analytics Consultant | Power BI • Fabric • ERP • Finance Analytics • Applied AI**
+
+I would **not** put “Investment Broker”, “FMVA”, “MLOps”, “MCP Protocol”, “LLM-Ops”, “Data Scientist” and “Telecom Engineer” all in the headline.
+
+The investment direction is a longer-term specialisation. Putting it in your headline now would split the story again.
+
+---
+
+# 4. Your About section needs a complete rewrite
+
+I would move away from:
+
+> “Data professional with 8+ years across Telecoms, Data engineering and analytics…”
+
+toward something like this:
+
+> **I work at the intersection of data, business applications and business decision-making.**
+>
+> My background combines more than eight years across telecommunications, enterprise technology, data and analytics, with an MSc in Data Science from the University of Surrey.
+>
+> I am currently working with discoverIE Group plc, where my experience spans group finance reporting, Power BI, enterprise applications, ERP implementation support, data and applied AI initiatives. My work involves translating business requirements into practical technology solutions, working with stakeholders across finance, business analysis, project management and operational teams.
+>
+> A major area of my current development is modernising business reporting and analytics using Microsoft technologies, including Power BI and Microsoft Fabric, while strengthening my understanding of financial reporting, data governance and enterprise applications.
+>
+> I am also involved in ERP and business-process initiatives, including supporting reporting and data requirements around Dynamics 365 Business Central implementations and evaluating where AI and automation can deliver genuine business value.
+>
+> My earlier career in telecommunications gives me an engineering foundation in large-scale systems, infrastructure, operations, reliability and technical problem-solving.
+>
+> I am now developing toward a consulting career focused on:
+>
+> **• Business Intelligence & Finance Analytics**
+> **• Microsoft Fabric & Power BI**
+> **• ERP & Business Applications**
+> **• Data Management & Governance**
+> **• Applied AI & Automation**
+> **• Business Analysis & Technology Consulting**
+>
+> My focus is not technology for its own sake. I am interested in using data, systems and AI to improve decisions, processes, controls and measurable business outcomes.
+
+That is much closer to the person you are becoming.
+
+---
+
+# 5. Your discoverIE experience should become the centrepiece
+
+Right now your CV says:
+
+> “Build and maintain ELT pipelines...”
+> “Productionise datasets...”
+> “Partner with stakeholders...”
+
+Those statements could belong to almost any data engineer. 
+
+You have a far more interesting story.
+
+Keep your **official contractual title** accurate, but add the functional scope.
+
+For example:
+
+### Data Engineer — Enterprise Applications & Analytics
+
+**discoverIE Group plc | Fixed-term**
+
+Then structure the description around three streams.
+
+**Group Finance Analytics**
+
+* Support the modernisation of group financial reporting using Power BI, working with consolidated finance information used for P&L, variance, forecast, MTD, YTD, LFL and comparative reporting.
+* Work with Group Finance stakeholders to translate existing spreadsheet-based reporting requirements into consistent analytical models and interactive management reporting.
+* Contribute to the evaluation of Microsoft Fabric, SharePoint and AI capabilities for a more governed and scalable reporting architecture.
+
+**ERP & Business Applications**
+
+* Support business application and ERP transformation initiatives across operating companies.
+* Contribute data, reporting and analytical expertise to the Vertec ERP programme involving Dynamics 365 Business Central and related operational applications.
+* Support requirements analysis, reporting design, data validation, testing and stakeholder adoption alongside business analysts and project management colleagues.
+
+**AI & Analytics**
+
+* Evaluate potential AI and automation use cases with business teams, considering business value, data readiness, implementation complexity and operational benefit.
+* Explore forecasting, analytics and automation opportunities that can improve business decision-making and reporting.
+
+Then we gradually replace bullets with **verified outcomes**.
+
+For example:
+
+> Reduced monthly management-report preparation from X hours to Y.
+
+or:
+
+> Consolidated X manually maintained reporting views into a governed Power BI model.
+
+But only once those numbers can be demonstrated.
+
+---
+
+# 6. There are some credibility problems we need to fix immediately
+
+This is important.
+
+Your public GitHub currently lists:
+
+* AWS Certified Data Analytics – Specialty
+* Google Professional Data Engineer
+* TensorFlow Developer Certificate
+* NVIDIA credentials
+
+and also describes projects as having “reduced churn rates by 20%” and billing errors by 30%. ([GitHub][2])
+
+Your uploaded CV, however, lists IBM, Google Cloud fundamentals, Data Analytics Essentials and Google Python credentials instead. 
+
+If you genuinely hold AWS Certified Data Analytics, Google Professional Data Engineer and TensorFlow Developer, we should add the credential verification URLs.
+
+If you **do not**, they need to disappear immediately.
+
+That inconsistency is exactly the kind of thing that can make a technically strong candidate look unreliable.
+
+The same applies to project impact.
+
+Instead of:
+
+> “Reduced churn by 20%.”
+
+if it was an academic project, write:
+
+> “Developed and evaluated a churn-prediction model on [dataset], achieving X metric and demonstrating a simulated retention-targeting workflow.”
+
+That is credible.
+
+---
+
+# 7. There is also a date problem
+
+Your LinkedIn screenshot shows discoverIE beginning around **September 2025**.
+
+Your CV says:
+
+> **09/2024 – Present**. 
+
+We need to reconcile this before we rebuild anything.
+
+Dates must match across:
+
+* LinkedIn
+* CV
+* portfolio
+* GitHub
+* applications
+* references
+
+Recruiters notice inconsistencies.
+
+---
+
+# 8. Your existing portfolio should effectively be replaced
+
+The current site is not worth incrementally patching.
+
+Publicly it still says “Telecommunication Engineer”, “Data Science Enthusiast”, references outdated studies and exposes detailed location/telephone information. ([bmborne.github.io][1])
+
+The code ZIP confirms that it is essentially an older personal portfolio template.
+
+I would turn it into a very simple professional site.
+
+## New structure
+
+### HERO
+
+**Boniphace Mkindi**
+
+> **Data & Business Applications Consultant**
+
+> Helping organisations turn business, finance and operational data into trusted analytics, better processes and intelligent applications.
+
+**Power BI | Microsoft Fabric | ERP | Finance Analytics | Data Governance | Applied AI**
+
+Buttons:
+
+**View Case Studies** | **LinkedIn** | **GitHub** | **Download CV**
+
+---
+
+### 01 — What I Do
+
+Four cards only:
+
+**Business Intelligence**
+Power BI, financial reporting, semantic models, executive dashboards.
+
+**Data Platforms**
+Microsoft Fabric, SQL, Python, analytical architecture, data quality.
+
+**Business Applications**
+ERP, Business Central, process analysis, requirements, reporting.
+
+**Applied AI**
+Forecasting, automation, AI opportunity evaluation and decision support.
+
+---
+
+### 02 — Selected Case Studies
+
+Eventually:
+
+**Group Finance Reporting Transformation**
+
+**Microsoft Fabric Finance Analytics Architecture**
+
+**ERP Reporting & Business Application Implementation**
+
+**Applied AI / Forecasting Business Case**
+
+These are much more valuable than ten university ML projects.
+
+Where company information is confidential, we build a **sanitised synthetic equivalent**.
+
+---
+
+### 03 — Professional Experience
+
+discoverIE
+TTCL
+Previous engineering experience
+
+Condensed.
+
+---
+
+### 04 — Credentials
+
+Separate:
+
+**Completed**
+
+and
+
+**Currently Developing**
+
+Do **not** visually present an enrolled programme as a completed certification.
+
+---
+
+### 05 — Professional Writing
+
+Your newsletter.
+
+---
+
+### 06 — Contact
+
+LinkedIn
+GitHub
+Professional email
+Guildford, Surrey, UK
+
+No street address.
+
+No public personal telephone number is necessary.
+
+---
+
+# 9. GitHub also needs to change its purpose
+
+Your current public GitHub has 33 repositories and currently pins general ML/data-science work, including a forked NLP repository. ([GitHub][2])
+
+GitHub should no longer be:
+
+> “Here are all the things I have coded.”
+
+It should become:
+
+> **“Here is the technical evidence behind the consultant described on LinkedIn.”**
+
+I would eventually pin only about four serious repositories.
+
+### `finance-analytics-fabric-reference-architecture`
+
+Synthetic multinational finance dataset:
+
+ERP → consolidation → Fabric → semantic model → Power BI.
+
+---
+
+### `powerbi-financial-reporting-case-study`
+
+Synthetic:
+
+* P&L
+* Actual vs Budget
+* Actual vs Forecast
+* MTD
+* YTD
+* LFL
+* FX
+* variance bridges
+
+with DAX and modelling explanation.
+
+---
+
+### `erp-business-central-analytics-demo`
+
+Synthetic Business Central-style data:
+
+* sales
+* purchasing
+* inventory
+* service
+* finance
+* reporting model
+
+---
+
+### `ai-business-value-framework`
+
+Framework and prototype for evaluating AI opportunities:
+
+* business value
+* data readiness
+* complexity
+* risk
+* automation alternative
+* expected ROI
+* governance
+* human oversight
+
+That would be a very unusual and strong portfolio combination.
+
+---
+
+# 10. Your newsletter should evolve, not disappear
+
+You already have an audience.
+
+I would therefore **not kill the newsletter**.
+
+But “Daily AI-Data Science Decoded” reinforces your old identity.
+
+The current content is heavily technical/ML oriented from what you shared.
+
+I would evolve it toward something like:
+
+## **Data to Decisions**
+
+### AI, Analytics, Finance & Business Systems
+
+or:
+
+## **Business, Data & AI Decoded**
+
+with
+
+[1]: https://bmborne.github.io/ "Personal Portfolio"
+[2]: https://github.com/bmborne "bmborne (Boniphace Mkindi) · GitHub"

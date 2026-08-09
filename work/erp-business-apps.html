@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ERP Reporting &amp; Business Applications | Boniphace Mkindi</title>
+  <meta name="description" content="Public-safe synthetic case: Dynamics 365 Business Central-style reporting — sales, purchasing, inventory and period-close validation for stakeholder adoption.">
+  <link rel="canonical" href="https://bmborne.github.io/work/erp-business-apps.html">
+  <link rel="icon" type="image/png" href="../favicon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=6">
+  <link rel="stylesheet" href="../assets/css/work.css?v=6">
+</head>
+<body>
+  <div class="sheet">
+    <header class="site-top">
+      <div>
+        <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
+        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+      </div>
+      <nav class="site-nav" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../work.html" aria-current="page">Work</a>
+      </nav>
+    </header>
+
+    <div class="layout work-layout">
+      <main class="main case-main">
+        <p class="case-back"><a href="../work.html#erp">← Work · ERP &amp; Business Applications</a></p>
+        <p class="chip">Synthetic demo · Evidence published</p>
+        <h1>ERP reporting &amp; Business Central support</h1>
+        <p class="case-lede">A public-safe reference for how reporting requirements, data validation and stakeholder views sit around a Dynamics 365 Business Central-style environment — without publishing employer screens or client data.</p>
+
+        <figure class="case-figure">
+          <img src="../assets/img/work/erp-flow.svg?v=4" width="720" height="280" alt="Process flow from reporting requirements and validation through Business Central-style modules to stakeholder views">
+          <figcaption>Process / contribution flow — requirements, validation and reporting touchpoints (not a KPI dashboard).</figcaption>
+        </figure>
+
+        <section class="case-block">
+          <h2>Business context</h2>
+          <p>ERP programmes need reporting that matches how finance and operations actually work — not only a system go-live. Sales, purchasing and inventory views have to be trustworthy before people stop relying on spreadsheets.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>The problem</h2>
+          <p>Reporting requirements, data validation and user adoption often lag configuration work, which creates gaps between the system and day-to-day decisions.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>My role</h2>
+          <p>Contribute data and reporting expertise: requirements conversations, validation support, UAT support and stakeholder understanding — not ownership of full Business Central configuration.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Approach</h2>
+          <ul>
+            <li>Clarify reporting needs with finance and operational stakeholders.</li>
+            <li>Support data checks and validation during implementation cycles.</li>
+            <li>Build a synthetic BC-style model covering sales, purchasing and inventory.</li>
+            <li>Publish labelled management-style stills that show what “reporting readiness” looks like.</li>
+            <li>Keep the contribution boundary explicit: reporting and validation, not full ERP ownership.</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Architecture / model</h2>
+          <p>See the process flow above. Operational evidence below focuses on sales, purchasing, inventory and validation — not a composed KPI dashboard as the lead visual.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Business logic (in the stills)</h2>
+          <ul>
+            <li>Sales order value by customer and document status</li>
+            <li>Open purchase-order aging for purchasing control</li>
+            <li>Inventory valuation by location</li>
+            <li>Period-close validation board (Pass / Warn / Fail)</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Controls</h2>
+          <ul>
+            <li>Master-data and posting checks called out as Pass / Warn / Fail</li>
+            <li>Document status mix visible for UAT conversations</li>
+            <li>Clear lineage: CSVs → measures → labelled stills</li>
+            <li>Every visual watermarked as synthetic / not employer ERP</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Result</h2>
+          <p>Published evidence from a synthetic Business Central-style model — reporting and validation views for stakeholder conversations. No internal screens or client data.</p>
+          <div class="evidence-grid two">
+            <figure class="case-figure">
+              <img src="../assets/img/work/erp/01-sales-by-customer.png" width="736" height="368" alt="Sales order value by customer for June 2026 synthetic data">
+              <figcaption>Sales value by customer</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/erp/02-po-aging.png" width="736" height="368" alt="Open purchase order aging by days open">
+              <figcaption>Open PO aging</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/erp/03-inventory-by-location.png" width="736" height="368" alt="Inventory value by warehouse location">
+              <figcaption>Inventory by location</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/erp/04-validation-board.png" width="800" height="448" alt="Period-close validation board with Pass Warn and Fail checks">
+              <figcaption>Period-close validation board</figcaption>
+            </figure>
+          </div>
+          <p class="evidence-note">Source tables (CSV):</p>
+          <ul class="dataset-links">
+            <li><a href="../assets/data/erp-synthetic/fact_sales_orders.csv">fact_sales_orders.csv</a></li>
+            <li><a href="../assets/data/erp-synthetic/fact_purchase_orders.csv">fact_purchase_orders.csv</a></li>
+            <li><a href="../assets/data/erp-synthetic/fact_inventory.csv">fact_inventory.csv</a></li>
+            <li><a href="../assets/data/erp-synthetic/dim_validation_checks.csv">dim_validation_checks.csv</a></li>
+            <li><a href="../assets/data/erp-synthetic/README.txt">README.txt</a></li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>What I am learning</h2>
+          <p>How to keep ERP reporting conversations grounded in checks people can review — so go-live is not confused with “finance and ops can trust the numbers.”</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Public-disclosure note</h2>
+          <p>This case uses synthetic companies, items and figures only. It does not represent discoverIE data, Business Central configuration, mappings or internal architecture.</p>
+        </section>
+      </main>
+
+      <aside class="side work-rail" aria-label="Case meta">
+        <p class="work-rail-label">Case</p>
+        <ul class="side-list compact">
+          <li>ERP &amp; Business Applications</li>
+          <li>Synthetic · stills + CSV</li>
+          <li>Business Central · reporting</li>
+        </ul>
+        <p class="side-copy" style="margin-top:1rem"><a href="../work.html#erp">All ERP cases →</a></p>
+      </aside>
+    </div>
+
+    <footer class="foot">
+      <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
+    </footer>
+  </div>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>

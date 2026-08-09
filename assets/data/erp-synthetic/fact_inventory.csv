@@ -1,0 +1,13 @@
+as_of_period,location_code,item_id,item_name,item_type,qty_on_hand,unit_cost_gbp,inventory_value_gbp,dataset
+2026-06,MAIN,I-FG-01,Finished assembly A,Finished Good,174,200.93,34961.15,SYNTHETIC_PUBLIC_SAFE
+2026-06,MAIN,I-FG-02,Finished assembly B,Finished Good,107,133.85,14321.55,SYNTHETIC_PUBLIC_SAFE
+2026-06,MAIN,I-RM-01,Raw material steel,Raw Material,363,115.68,41991.45,SYNTHETIC_PUBLIC_SAFE
+2026-06,MAIN,I-RM-02,Raw material polymer,Raw Material,97,153.04,14844.95,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-NORTH,I-FG-01,Finished assembly A,Finished Good,158,113.59,17947.93,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-NORTH,I-FG-02,Finished assembly B,Finished Good,288,93.66,26975.08,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-NORTH,I-RM-01,Raw material steel,Raw Material,121,18.69,2261.41,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-NORTH,I-RM-02,Raw material polymer,Raw Material,291,148.86,43319.69,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-SOUTH,I-FG-01,Finished assembly A,Finished Good,247,75.97,18765.73,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-SOUTH,I-FG-02,Finished assembly B,Finished Good,112,97.91,10965.56,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-SOUTH,I-RM-01,Raw material steel,Raw Material,232,78.69,18255.38,SYNTHETIC_PUBLIC_SAFE
+2026-06,WH-SOUTH,I-RM-02,Raw material polymer,Raw Material,209,18.33,3831.88,SYNTHETIC_PUBLIC_SAFE

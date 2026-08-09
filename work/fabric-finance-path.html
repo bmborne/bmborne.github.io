@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fabric Finance Analytics Path | Boniphace Mkindi</title>
+  <meta name="description" content="Synthetic Microsoft Fabric reference path for finance analytics: landing → lake/warehouse → semantic model → Power BI management views.">
+  <link rel="canonical" href="https://bmborne.github.io/work/fabric-finance-path.html">
+  <link rel="icon" type="image/png" href="../favicon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=6">
+  <link rel="stylesheet" href="../assets/css/work.css?v=6">
+</head>
+<body>
+  <div class="sheet">
+    <header class="site-top">
+      <div>
+        <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
+        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+      </div>
+      <nav class="site-nav" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../work.html" aria-current="page">Work</a>
+      </nav>
+    </header>
+
+    <div class="layout work-layout">
+      <main class="main case-main">
+        <p class="case-back"><a href="../work.html#data">← Work · Data Platforms</a></p>
+        <p class="chip">Synthetic reference · Evidence published</p>
+        <h1>Fabric finance analytics path</h1>
+        <p class="case-lede">A public-safe walkthrough of a governed path from ERP-style sources through Fabric concepts to a finance semantic model and management reporting — no employer estate.</p>
+
+        <figure class="case-figure">
+          <img src="../assets/img/work/fabric-path.svg?v=3" width="720" height="200" alt="Architecture path from ERP-style sources through Fabric concepts to a semantic model and Power BI">
+          <figcaption>Architecture reference — the visual for this topic is the path, not a dashboard.</figcaption>
+        </figure>
+
+        <section class="case-block">
+          <h2>Business context</h2>
+          <p>Group reporting needs a path that scales beyond ad-hoc extracts: reusable definitions, lineage and a consumer layer finance can trust.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>The problem</h2>
+          <p>When every team pulls its own files, definitions drift and reconciliation becomes the product instead of the report.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>My role</h2>
+          <p>Document a reference architecture and publish a synthetic walkthrough that mirrors the finance flagship dataset end-to-end.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Approach</h2>
+          <ul>
+            <li>Landing of ERP-style / file sources (synthetic finance CSVs).</li>
+            <li>Fabric-path concepts: lakehouse / warehouse curation.</li>
+            <li>Finance semantic model for P&amp;L and variance measures.</li>
+            <li>Power BI management views as the consumer layer.</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Architecture / model</h2>
+          <p>See the path diagram above. Below is the stage-by-stage lineage board for the same walkthrough.</p>
+          <figure class="case-figure">
+            <img src="../assets/img/work/fabric/01-lineage-board.png" width="800" height="384" alt="Five-stage lineage board from Landing to Power BI">
+            <figcaption>Stage-by-stage lineage board.</figcaption>
+          </figure>
+        </section>
+
+        <section class="case-block">
+          <h2>Result</h2>
+          <p>Published conceptual walkthrough artefacts. This is not a live Fabric workspace screenshot.</p>
+          <div class="evidence-grid two">
+            <figure class="case-figure">
+              <img src="../assets/img/work/fabric/01-lineage-board.png" width="800" height="384" alt="Five-stage lineage board from Landing to Power BI">
+              <figcaption>Lineage board</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/fabric/02-object-counts.png" width="736" height="368" alt="Illustrative object counts along the Fabric path">
+              <figcaption>Illustrative object counts along the path</figcaption>
+            </figure>
+          </div>
+          <p class="evidence-note">Reference + source:</p>
+          <ul class="dataset-links">
+            <li><a href="../assets/data/fabric-synthetic/reference_lineage.csv">reference_lineage.csv</a></li>
+            <li><a href="../assets/data/finance-synthetic/fact_finance.csv">finance fact_finance.csv</a> (illustrative source)</li>
+            <li><a href="../assets/data/fabric-synthetic/README.txt">README.txt</a></li>
+          </ul>
+          <p class="evidence-note"><a href="finance-reporting.html">Related: multi-entity finance analytics case →</a></p>
+        </section>
+
+        <section class="case-block">
+          <h2>Public-disclosure note</h2>
+          <p>No employer Fabric capacity, workspaces, gateways or internal architecture are shown. Diagrams and stills are synthetic / conceptual.</p>
+        </section>
+      </main>
+
+      <aside class="side work-rail" aria-label="Case meta">
+        <p class="work-rail-label">Case</p>
+        <ul class="side-list compact">
+          <li>Data Platforms</li>
+          <li>Fabric · synthetic</li>
+          <li>Lineage · semantic model</li>
+        </ul>
+        <p class="side-copy" style="margin-top:1rem"><a href="../work.html#data">All Data Platforms →</a></p>
+      </aside>
+    </div>
+
+    <footer class="foot">
+      <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
+    </footer>
+  </div>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>

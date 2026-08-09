@@ -1,0 +1,6 @@
+stage_order,stage,component,purpose,dataset
+1,Landing,ERP-style CSV / files,Raw synthetic facts,SYNTHETIC_PUBLIC_SAFE
+2,Lakehouse,Bronze tables,Append-only history,SYNTHETIC_PUBLIC_SAFE
+3,Warehouse,Curated dims + facts,Star schema,SYNTHETIC_PUBLIC_SAFE
+4,Semantic,Finance measures,P&L / variance,SYNTHETIC_PUBLIC_SAFE
+5,Power BI,Management views,Consumer layer,SYNTHETIC_PUBLIC_SAFE

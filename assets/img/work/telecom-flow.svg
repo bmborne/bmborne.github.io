@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-labelledby="t d">
+  <title id="t">Synthetic telecom anomaly layered pipeline</title>
+  <desc id="d">Bronze anonymised ingest to silver cleaned events to gold anomaly scores with tests and run controls.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1a5f7a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="280" fill="#eef5f8"/>
+  <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a5f7a">SYNTHETIC - PUBLIC-SAFE RESEARCH DEMO</text>
+  <rect x="24" y="72" width="120" height="88" rx="4" fill="#ffffff" stroke="#8aabb8" stroke-width="1.5"/>
+  <text x="84" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Bronze</text>
+  <text x="84" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Tokenised ingest</text>
+  <path d="M154 116 H190" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="200" y="72" width="120" height="88" rx="4" fill="#ffffff" stroke="#1a5f7a" stroke-width="1.5"/>
+  <text x="260" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Silver</text>
+  <text x="260" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Clean + DQ flags</text>
+  <path d="M330 116 H366" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="376" y="72" width="120" height="88" rx="4" fill="#ffffff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="436" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Gold</text>
+  <text x="436" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Anomaly scores</text>
+  <path d="M506 116 H542" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="552" y="72" width="144" height="88" rx="4" fill="#1a5f7a"/>
+  <text x="624" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Review view</text>
+  <text x="624" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#d7eaf0">Flags / thresholds</text>
+  <rect x="24" y="200" width="672" height="52" rx="4" fill="#ffffff" stroke="#c5d9e2"/>
+  <text x="360" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5a6f7a">Controls: anonymisation, automated tests, dry-run gate, no production credentials</text>
+</svg>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Telecom Operations Anomaly Detection | Boniphace Mkindi</title>
+  <meta name="description" content="MSc engineering research case: synthetic bronze/silver/gold pipeline for anonymised operational telemetry, tests and run controls.">
+  <link rel="canonical" href="https://bmborne.github.io/work/telecom-anomaly.html">
+  <link rel="icon" type="image/png" href="../favicon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=6">
+  <link rel="stylesheet" href="../assets/css/work.css?v=6">
+</head>
+<body>
+  <div class="sheet">
+    <header class="site-top">
+      <div>
+        <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
+        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+      </div>
+      <nav class="site-nav" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../work.html" aria-current="page">Work</a>
+      </nav>
+    </header>
+
+    <div class="layout work-layout">
+      <main class="main case-main">
+        <p class="case-back"><a href="../work.html#engineering">← Work · Engineering &amp; Research</a></p>
+        <p class="chip">MSc research · Evidence published</p>
+        <h1>Telecom operations anomaly detection</h1>
+        <p class="case-lede">Engineering research into safe handling of operational telemetry: anonymisation, layered data, tests and run controls. Supports the analytics career as engineering depth — not as the primary market lane.</p>
+
+        <figure class="case-figure">
+          <img src="../assets/img/work/telecom-flow.svg?v=3" width="720" height="280" alt="Layered pipeline from bronze tokenised ingest through silver and gold anomaly scores to a review view">
+          <figcaption>Layered engineering flow — bronze / silver / gold with privacy and run controls.</figcaption>
+        </figure>
+
+        <section class="case-block">
+          <h2>Business context</h2>
+          <p>Operational networks generate high-volume telemetry. Useful detection work depends on data that can be handled safely and reproducibly.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>The problem</h2>
+          <p>Without clear extraction controls, anonymisation and testable pipelines, anomaly work is hard to defend and risky to share.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>My role</h2>
+          <p>Designed and implemented Python workflows with layered data, tests and explicit run controls as MSc engineering research.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Approach</h2>
+          <ul>
+            <li>Safety-conscious data handling and anonymisation patterns (site tokens only).</li>
+            <li>Layered datasets: bronze ingest → silver clean/DQ → gold anomaly scores.</li>
+            <li>Automated tests and documented run controls, including a dry-run gate.</li>
+            <li>Publish labelled stills from a synthetic dataset — not operator environments.</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Architecture / model</h2>
+          <p>See the layered flow above. Evidence below is pipeline behaviour (volumes, scores, tests) — not a management dashboard.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Business logic (in the stills)</h2>
+          <ul>
+            <li>Layer volumes retained across bronze / silver / gold</li>
+            <li>Mean anomaly score by day with a review threshold</li>
+            <li>Silver DQ review flags</li>
+            <li>Automated test and run-control board</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Controls</h2>
+          <ul>
+            <li>No raw operator IDs — invented site tokens only</li>
+            <li>Schema, privacy, DQ and model tests recorded as Pass / Warn</li>
+            <li>Dry-run gate and “production credentials absent” check</li>
+            <li>Every visual watermarked as synthetic / public-safe</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Result</h2>
+          <p>Published synthetic layered evidence. Public repository link remains withheld until disclosure and governance are cleared.</p>
+          <div class="evidence-grid two">
+            <figure class="case-figure">
+              <img src="../assets/img/work/telecom/01-layer-volumes.png" width="736" height="368" alt="Bronze silver and gold layer row volumes">
+              <figcaption>Layer volumes</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/telecom/02-anomaly-timeline.png" width="736" height="368" alt="Mean anomaly score by day with review threshold">
+              <figcaption>Anomaly score timeline</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/telecom/03-run-controls.png" width="800" height="416" alt="Run controls and automated tests board">
+              <figcaption>Tests and run controls</figcaption>
+            </figure>
+          </div>
+          <p class="evidence-note">Source tables (CSV):</p>
+          <ul class="dataset-links">
+            <li><a href="../assets/data/telecom-synthetic/bronze_events.csv">bronze_events.csv</a></li>
+            <li><a href="../assets/data/telecom-synthetic/silver_events.csv">silver_events.csv</a></li>
+            <li><a href="../assets/data/telecom-synthetic/gold_scores.csv">gold_scores.csv</a></li>
+            <li><a href="../assets/data/telecom-synthetic/run_tests.csv">run_tests.csv</a></li>
+            <li><a href="../assets/data/telecom-synthetic/README.txt">README.txt</a></li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>What I am learning</h2>
+          <p>How to keep detection work reviewable: privacy first, then layers, then scores — with tests that fail closed when safety gates are not met.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Public-disclosure note</h2>
+          <p>No production credentials, access methods or identifiable operator environments are published here. Figures and site tokens are invented for portfolio evidence.</p>
+        </section>
+      </main>
+
+      <aside class="side work-rail" aria-label="Case meta">
+        <p class="work-rail-label">Case</p>
+        <ul class="side-list compact">
+          <li>Engineering &amp; Research</li>
+          <li>MSc · synthetic stills</li>
+          <li>Python · anomaly · privacy</li>
+        </ul>
+        <p class="side-copy" style="margin-top:1rem"><a href="../work.html#engineering">All engineering cases →</a></p>
+      </aside>
+    </div>
+
+    <footer class="foot">
+      <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
+    </footer>
+  </div>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>

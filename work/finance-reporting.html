@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Synthetic Multi-Entity Finance Analytics | Boniphace Mkindi</title>
+  <meta name="description" content="Public-safe synthetic case study: multi-entity finance analytics from ERP-style sources to Power BI management reporting — P&amp;L, variance, MTD/YTD/LFL.">
+  <link rel="canonical" href="https://bmborne.github.io/work/finance-reporting.html">
+  <link rel="icon" type="image/png" href="../favicon.png?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=6">
+  <link rel="stylesheet" href="../assets/css/work.css?v=6">
+</head>
+<body>
+  <div class="sheet">
+    <header class="site-top">
+      <div>
+        <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
+        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+      </div>
+      <nav class="site-nav" aria-label="Site">
+        <a href="../index.html">Home</a>
+        <a href="../work.html" aria-current="page">Work</a>
+      </nav>
+    </header>
+
+    <div class="layout work-layout">
+      <main class="main case-main">
+        <p class="case-back"><a href="../work.html#finance">← Work · Finance Analytics</a></p>
+        <p class="chip">Synthetic demo · Evidence published</p>
+        <h1>Synthetic multi-entity finance analytics</h1>
+        <p class="case-lede">A public-safe reference for group-style management reporting: synthetic operating-company data → dimensional model → finance semantic model → management views for P&amp;L, variance and period comparisons.</p>
+
+        <figure class="case-figure">
+          <img src="../assets/img/work/finance-flow.svg?v=3" width="720" height="280" alt="Flow diagram from synthetic OpCo sources through dimensional and semantic models to Power BI">
+          <figcaption>Architecture flow for the finance topic. Report stills and demo GIF appear under Result.</figcaption>
+        </figure>
+
+        <section class="case-block">
+          <h2>Business context</h2>
+          <p>Multi-entity environments often need comparable management reporting across operating companies — actual vs budget, forecast, MTD/YTD and like-for-like views — without every team maintaining its own spreadsheet logic.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>The problem</h2>
+          <p>Fragmented spreadsheet reporting makes definitions drift, reconciliation harder, and executive views slower to trust when entities, currencies and periods differ.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>My role</h2>
+          <p>Designing and building a synthetic end-to-end reference that mirrors those patterns so the modelling, DAX logic and controls can be shown publicly.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Approach</h2>
+          <ul>
+            <li>Define a small set of synthetic OpCos and a shared account / period / scenario structure.</li>
+            <li>Build a dimensional model suitable for management reporting.</li>
+            <li>Encode P&amp;L, variance and period logic against that model.</li>
+            <li>Publish labelled management-style stills (native Power BI <code>.pbix</code> optional).</li>
+            <li>Document controls: definitions, lineage and synthetic disclosure.</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Architecture / model</h2>
+          <p>See the flow above. Optional Fabric path lives under Data Platforms — not required for this demo.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Business logic (in the stills)</h2>
+          <ul>
+            <li>P&amp;L structure by entity and account</li>
+            <li>Actual vs budget (and forecast in the dataset)</li>
+            <li>Group operating-profit trend across periods</li>
+            <li>Variance bridge from budget operating profit to actual</li>
+            <li>Entity hierarchy for group vs OpCo views</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Controls</h2>
+          <ul>
+            <li>Shared synthetic metric definitions (Revenue, COGS, OpEx, operating profit)</li>
+            <li>Single currency (GBP) and labelled scenarios (Actual / Budget / Forecast)</li>
+            <li>Clear lineage: CSVs → measures → labelled stills</li>
+            <li>Every visual watermarked as synthetic / public-safe</li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>Result</h2>
+          <p>Published evidence from the synthetic model — management-style report stills (not employer dashboards). Native Power BI <code>.pbix</code> remains optional.</p>
+          <figure class="case-figure">
+            <img src="../assets/img/work/finance/finance-demo.gif" width="960" height="540" alt="Short looping demo cycling through synthetic finance report stills">
+            <figcaption>Short demo motion (GIF) cycling labelled synthetic stills — not a live Power BI embed.</figcaption>
+          </figure>
+          <div class="evidence-grid two">
+            <figure class="case-figure">
+              <img src="../assets/img/work/finance/01-entity-variance.png" width="736" height="368" alt="Operating profit by entity Actual vs Budget for June 2026 synthetic data">
+              <figcaption>OpCo operating profit — Actual vs Budget</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/finance/02-group-trend.png" width="736" height="368" alt="Group operating profit trend Actual vs Budget over synthetic periods">
+              <figcaption>Group operating profit trend</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/finance/03-pnl-bridge.png" width="736" height="368" alt="P and L variance bridge from budget to actual operating profit">
+              <figcaption>P&amp;L variance bridge</figcaption>
+            </figure>
+            <figure class="case-figure">
+              <img src="../assets/img/work/finance/04-report-overview.png" width="800" height="464" alt="Composed synthetic management report page with KPIs and charts">
+              <figcaption>Composed management overview</figcaption>
+            </figure>
+          </div>
+          <p class="evidence-note">Source tables (CSV):</p>
+          <ul class="dataset-links">
+            <li><a href="../assets/data/finance-synthetic/fact_finance.csv">fact_finance.csv</a></li>
+            <li><a href="../assets/data/finance-synthetic/dim_entity.csv">dim_entity.csv</a></li>
+            <li><a href="../assets/data/finance-synthetic/dim_account.csv">dim_account.csv</a></li>
+            <li><a href="../assets/data/finance-synthetic/README.txt">README.txt</a></li>
+          </ul>
+        </section>
+
+        <section class="case-block">
+          <h2>What I am learning</h2>
+          <p>How to make finance reporting logic explicit and reviewable — so a semantic model is not just a dashboard, but a controlled analytical product.</p>
+        </section>
+
+        <section class="case-block">
+          <h2>Public-disclosure note</h2>
+          <p>This case uses synthetic companies and figures only. It does not represent discoverIE data, systems or internal architecture.</p>
+        </section>
+      </main>
+
+      <aside class="side work-rail" aria-label="Case meta">
+        <p class="work-rail-label">Case</p>
+        <ul class="side-list compact">
+          <li>Finance Analytics</li>
+          <li>Synthetic · stills + CSV</li>
+          <li>Power BI · DAX · modelling</li>
+        </ul>
+        <p class="side-copy" style="margin-top:1rem"><a href="../work.html#finance">All Finance Analytics →</a></p>
+      </aside>
+    </div>
+
+    <footer class="foot">
+      <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
+    </footer>
+  </div>
+  <script src="../assets/js/main.js" defer></script>
+</body>
+</html>

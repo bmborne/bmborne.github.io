@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" height="200" role="img" aria-labelledby="t d">
+  <title id="t">Fabric finance analytics reference path</title>
+  <desc id="d">Reference path from ERP-style sources through Fabric concepts to a semantic model and Power BI.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#1a5f7a"/>
+    </marker>
+  </defs>
+  <rect width="720" height="200" fill="#eef5f8"/>
+  <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1a5f7a">SYNTHETIC REFERENCE - NO EMPLOYER ESTATE</text>
+  <rect x="24" y="60" width="110" height="70" rx="4" fill="#ffffff" stroke="#8aabb8"/>
+  <text x="79" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">ERP / files</text>
+  <text x="79" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Landing</text>
+  <path d="M144 95 H175" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="180" y="60" width="120" height="70" rx="4" fill="#ffffff" stroke="#1a5f7a" stroke-width="1.5"/>
+  <text x="240" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Fabric path</text>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Lake / WH</text>
+  <path d="M310 95 H341" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="346" y="60" width="130" height="70" rx="4" fill="#ffffff" stroke="#2a9d8f" stroke-width="1.5"/>
+  <text x="411" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#0f3d4f">Semantic model</text>
+  <text x="411" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#5a6f7a">Measures</text>
+  <path d="M486 95 H517" stroke="#1a5f7a" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <rect x="522" y="60" width="110" height="70" rx="4" fill="#1a5f7a"/>
+  <text x="577" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Power BI</text>
+  <text x="577" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#d7eaf0">Mgmt views</text>
+  <text x="360" y="170" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5a6f7a">Governance, lineage and reusable definitions - synthetic walkthrough published</text>
+</svg>

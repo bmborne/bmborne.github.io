@@ -1,0 +1,71 @@
+document_no,period,customer_id,customer_name,item_id,item_name,item_type,qty,amount_gbp,status,dataset
+SO-5001,2026-01,C-1001,Northfield Parts,I-FG-02,Finished assembly B,Finished Good,30,10086.73,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5002,2026-01,C-1001,Northfield Parts,I-FG-01,Finished assembly A,Finished Good,37,8566.52,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5003,2026-01,C-1001,Northfield Parts,I-SV-01,Field service hour,Service,8,861.08,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5004,2026-01,C-1002,Meridian Assemblies,I-FG-01,Finished assembly A,Finished Good,30,5757.04,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5005,2026-01,C-1002,Meridian Assemblies,I-RM-02,Raw material polymer,Raw Material,14,869.53,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5006,2026-01,C-1002,Meridian Assemblies,I-FG-01,Finished assembly A,Finished Good,17,4579.38,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5007,2026-01,C-1002,Meridian Assemblies,I-FG-02,Finished assembly B,Finished Good,36,12358.66,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5008,2026-01,C-1003,Coastal Components,I-RM-01,Raw material steel,Raw Material,24,880.44,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5009,2026-01,C-1003,Coastal Components,I-RM-01,Raw material steel,Raw Material,38,1798.38,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5010,2026-01,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,12,3634.37,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5011,2026-01,C-1004,Summit Industrial,I-FG-01,Finished assembly A,Finished Good,9,3271.47,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5012,2026-01,C-1004,Summit Industrial,I-RM-01,Raw material steel,Raw Material,36,1967.52,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5013,2026-01,C-1004,Summit Industrial,I-RM-02,Raw material polymer,Raw Material,9,635.37,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5014,2026-02,C-1001,Northfield Parts,I-FG-02,Finished assembly B,Finished Good,33,9121.02,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5015,2026-02,C-1001,Northfield Parts,I-SV-01,Field service hour,Service,6,574.34,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5016,2026-02,C-1002,Meridian Assemblies,I-FG-02,Finished assembly B,Finished Good,10,2222.92,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5017,2026-02,C-1002,Meridian Assemblies,I-SV-01,Field service hour,Service,4,335.41,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5018,2026-02,C-1003,Coastal Components,I-RM-01,Raw material steel,Raw Material,13,760.59,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5019,2026-02,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,34,13460.19,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5020,2026-02,C-1003,Coastal Components,I-RM-02,Raw material polymer,Raw Material,30,951.9,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5021,2026-02,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,18,5143.51,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5022,2026-02,C-1004,Summit Industrial,I-FG-02,Finished assembly B,Finished Good,39,7969.71,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5023,2026-02,C-1004,Summit Industrial,I-SV-01,Field service hour,Service,8,645.06,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5024,2026-02,C-1004,Summit Industrial,I-FG-01,Finished assembly A,Finished Good,12,4604.94,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5025,2026-02,C-1004,Summit Industrial,I-FG-01,Finished assembly A,Finished Good,14,2863.35,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5026,2026-03,C-1001,Northfield Parts,I-RM-02,Raw material polymer,Raw Material,19,1083.59,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5027,2026-03,C-1001,Northfield Parts,I-RM-01,Raw material steel,Raw Material,35,2450.49,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5028,2026-03,C-1002,Meridian Assemblies,I-RM-01,Raw material steel,Raw Material,28,885.93,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5029,2026-03,C-1002,Meridian Assemblies,I-RM-02,Raw material polymer,Raw Material,5,337.22,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5030,2026-03,C-1002,Meridian Assemblies,I-FG-01,Finished assembly A,Finished Good,29,10664.83,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5031,2026-03,C-1002,Meridian Assemblies,I-RM-01,Raw material steel,Raw Material,10,881.58,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5032,2026-03,C-1003,Coastal Components,I-FG-02,Finished assembly B,Finished Good,15,6275.2,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5033,2026-03,C-1003,Coastal Components,I-FG-02,Finished assembly B,Finished Good,35,11821.05,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5034,2026-03,C-1004,Summit Industrial,I-FG-01,Finished assembly A,Finished Good,38,13675.41,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5035,2026-03,C-1004,Summit Industrial,I-FG-02,Finished assembly B,Finished Good,6,1442.64,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5036,2026-04,C-1001,Northfield Parts,I-FG-01,Finished assembly A,Finished Good,40,7792.85,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5037,2026-04,C-1001,Northfield Parts,I-FG-01,Finished assembly A,Finished Good,40,7745.5,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5038,2026-04,C-1001,Northfield Parts,I-RM-02,Raw material polymer,Raw Material,40,3324.43,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5039,2026-04,C-1001,Northfield Parts,I-SV-01,Field service hour,Service,11,938.91,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5040,2026-04,C-1002,Meridian Assemblies,I-SV-01,Field service hour,Service,5,536.99,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5041,2026-04,C-1002,Meridian Assemblies,I-SV-01,Field service hour,Service,16,1138.74,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5042,2026-04,C-1002,Meridian Assemblies,I-RM-02,Raw material polymer,Raw Material,25,1016.04,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5043,2026-04,C-1003,Coastal Components,I-FG-02,Finished assembly B,Finished Good,28,6000.82,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5044,2026-04,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,30,11771.52,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5045,2026-04,C-1004,Summit Industrial,I-RM-02,Raw material polymer,Raw Material,37,1938.17,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5046,2026-04,C-1004,Summit Industrial,I-RM-01,Raw material steel,Raw Material,6,328.88,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5047,2026-04,C-1004,Summit Industrial,I-SV-01,Field service hour,Service,11,770.86,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5048,2026-04,C-1004,Summit Industrial,I-FG-02,Finished assembly B,Finished Good,11,2201.92,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5049,2026-05,C-1001,Northfield Parts,I-FG-01,Finished assembly A,Finished Good,21,4202.06,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5050,2026-05,C-1001,Northfield Parts,I-RM-02,Raw material polymer,Raw Material,5,304.75,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5051,2026-05,C-1002,Meridian Assemblies,I-FG-01,Finished assembly A,Finished Good,38,13310.97,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5052,2026-05,C-1002,Meridian Assemblies,I-FG-02,Finished assembly B,Finished Good,17,6863.57,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5053,2026-05,C-1003,Coastal Components,I-SV-01,Field service hour,Service,12,789.81,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5054,2026-05,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,6,2135.64,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5055,2026-05,C-1003,Coastal Components,I-RM-02,Raw material polymer,Raw Material,11,739.83,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5056,2026-05,C-1004,Summit Industrial,I-SV-01,Field service hour,Service,6,482.53,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5057,2026-05,C-1004,Summit Industrial,I-FG-02,Finished assembly B,Finished Good,30,12523.95,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5058,2026-05,C-1004,Summit Industrial,I-RM-01,Raw material steel,Raw Material,32,975.73,Partially shipped,SYNTHETIC_PUBLIC_SAFE
+SO-5059,2026-06,C-1001,Northfield Parts,I-FG-02,Finished assembly B,Finished Good,10,3205.4,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5060,2026-06,C-1001,Northfield Parts,I-SV-01,Field service hour,Service,8,697.91,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5061,2026-06,C-1001,Northfield Parts,I-SV-01,Field service hour,Service,12,1166.11,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5062,2026-06,C-1001,Northfield Parts,I-RM-02,Raw material polymer,Raw Material,37,2184.64,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5063,2026-06,C-1002,Meridian Assemblies,I-SV-01,Field service hour,Service,14,1346.8,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5064,2026-06,C-1002,Meridian Assemblies,I-FG-01,Finished assembly A,Finished Good,7,1483.6,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5065,2026-06,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,6,1981.77,Open,SYNTHETIC_PUBLIC_SAFE
+SO-5066,2026-06,C-1003,Coastal Components,I-FG-01,Finished assembly A,Finished Good,37,14632.98,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5067,2026-06,C-1003,Coastal Components,I-RM-02,Raw material polymer,Raw Material,21,1679.97,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5068,2026-06,C-1003,Coastal Components,I-FG-02,Finished assembly B,Finished Good,34,10150.62,Posted,SYNTHETIC_PUBLIC_SAFE
+SO-5069,2026-06,C-1004,Summit Industrial,I-SV-01,Field service hour,Service,12,859.61,Released,SYNTHETIC_PUBLIC_SAFE
+SO-5070,2026-06,C-1004,Summit Industrial,I-RM-01,Raw material steel,Raw Material,13,376.26,Posted,SYNTHETIC_PUBLIC_SAFE

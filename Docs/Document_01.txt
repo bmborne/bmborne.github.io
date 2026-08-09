@@ -1,0 +1,779 @@
+# Re-evaluation: the earlier assessment was too gentle
+
+After reviewing the LinkedIn screenshots, the CV, the portfolio source code, the GitHub profile README and several repositories, my revised conclusion is:
+
+> **Your main problem is not lack of technical capability or lack of qualifications. It is a combined positioning, evidence and trust problem.**
+
+You are presenting a technically broad profile, but the different public channels do not describe the same professional. More importantly, several inconsistencies may cause a recruiter to question what is current, what is yours, what is production experience and what is academic or aspirational.
+
+Your opportunity at discoverIE is genuinely strong. The company’s 2026 public reporting describes a FTSE 250 group with more than 30 operating businesses, approximately 4,600 employees across 21 countries and a decentralised, acquisition-led operating model. That makes group reporting, ERP integration and analytical standardisation a credible enterprise-transformation environment. ([discoverIE Group][1])
+
+However:
+
+> **Access to an enterprise environment does not automatically make someone a principal architect or senior consultant. The market will credit only the scope you owned, the outcomes you produced and the evidence you can defend.**
+
+---
+
+# 1. Updated diagnosis
+
+| Area                      | Assessment                    | What it means                                                                                                         |
+| ------------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Enterprise opportunity    | **Strong**                    | Your discoverIE and Vertec exposure could become the foundation of a valuable consulting profile.                     |
+| Technical foundation      | **Strong**                    | Your telecommunications, data-engineering, MSc and recent engineering work give you credible depth.                   |
+| Market positioning        | **Weak**                      | You currently present several competing identities.                                                                   |
+| Public proof              | **Mixed**                     | Some recent work is promising, but older public material weakens it.                                                  |
+| Cross-channel consistency | **Critical weakness**         | Titles, dates, credentials and professional narratives do not align.                                                  |
+| Corporate credibility     | **Developing**                | You are gaining the right experience, but it is not yet expressed through business outcomes and consulting artefacts. |
+| Certification strategy    | **Overloaded**                | You have enrolled in more material than can be completed and applied well within seven months.                        |
+| Thought leadership        | **Promising but misdirected** | The newsletter has an audience, but its current identity reinforces your old technical-generalist positioning.        |
+| Potential UK market fit   | **Strong once focused**       | Finance BI, Power BI, Fabric and Business Central form a commercially coherent combination.                           |
+
+You are not rebuilding from zero. You are repairing how a substantial background is being classified and trusted.
+
+---
+
+# 2. What a recruiter currently experiences
+
+A recruiter may follow this journey:
+
+### Step 1: LinkedIn search result
+
+They see:
+
+> Data Scientist & Data Engineer | Telecom/Data | ML | NLP | MLOps | MCP Protocol | AI | LLM-Ops
+
+This suggests five or six possible career paths:
+
+* data scientist;
+* data engineer;
+* machine-learning engineer;
+* MLOps engineer;
+* generative-AI engineer;
+* telecommunications specialist.
+
+It does not immediately suggest:
+
+* Power BI;
+* Microsoft Fabric;
+* finance analytics;
+* ERP reporting;
+* Business Central;
+* business applications consulting.
+
+There is also a terminology issue: **MCP already means Model Context Protocol**, so “MCP Protocol” reads as “Model Context Protocol Protocol.” “LLMOps” is also normally written without a hyphen. Small details like these matter when the headline is positioning you as a specialist.
+
+### Step 2: Current experience
+
+Your discoverIE entry is described through generic data-engineering responsibilities. It does not communicate the distinctive context you have now explained:
+
+* group finance;
+* multinational reporting;
+* P&L and variance reporting;
+* FCC;
+* ERP implementation;
+* Business Central;
+* stakeholder requirements;
+* reporting transformation;
+* AI opportunity evaluation.
+
+The strongest part of your experience is almost invisible.
+
+### Step 3: Portfolio
+
+The portfolio introduces you as a **Telecommunication Engineer** and **Data Science Enthusiast**, contains old education and experience information, and publicly displays detailed location and telephone information. Its source code also has empty search-description metadata and is still substantially based on an older resume template.
+
+More seriously, at least one portfolio project page points visitors to another developer’s GitHub repository rather than one of your repositories. The ML web application page links to the `rajaprerak` account. Regardless of whether this was accidental template residue, a recruiter cannot know that. They could interpret it as you presenting another person’s project as your own.
+
+**This makes the current portfolio a net negative.**
+
+It should not be sent with applications until it has been replaced or reduced to a clean holding page.
+
+### Step 4: GitHub
+
+Your profile README describes you as a data scientist and claims credentials including AWS Certified Data Analytics, Google Professional Data Engineer and TensorFlow Developer. It also contains percentage-impact claims, placeholder project links, an outdated LinkedIn address and a public telephone number.
+
+Those credentials are not reflected in your current CV, which lists a different and more foundational set of certificates. Your CV also presents discoverIE as beginning in September 2024, whereas the LinkedIn screenshots show September 2025. 
+
+Again, these may be maintenance errors rather than intentional exaggeration, but a hiring manager sees inconsistency, not the explanation.
+
+### Step 5: CV
+
+The current CV is three pages and is dominated by numerous academic and technical projects. Your most commercially valuable experience at discoverIE receives only four generic bullets. It also contains:
+
+* your complete home address;
+* direct personal contact details;
+* four referees’ email addresses and telephone numbers;
+* broad claims requiring supporting evidence;
+* little emphasis on Power BI, Fabric, ERP or finance reporting;
+* the discoverIE/LinkedIn date inconsistency. 
+
+A likely recruiter conclusion is:
+
+> “Technically broad candidate, but I am uncertain about the exact professional level, specialisation, evidence and recent experience.”
+
+That does not prove why you received no calls. Right-to-work status, sponsorship requirements, job selection, salary expectations and application quality may also be involved. But the public profile is almost certainly not helping conversion.
+
+---
+
+# 3. Your correct market position is narrower than previously proposed
+
+My earlier recommendation was:
+
+> Data & Business Applications Consultant.
+
+That is directionally correct, but still broad.
+
+Based on the additional context, your strongest market lane is:
+
+## **Microsoft Finance Analytics & Business Applications**
+
+It combines:
+
+* Power BI;
+* Microsoft Fabric;
+* finance and management reporting;
+* ERP and Business Central;
+* business analysis;
+* data governance;
+* practical AI;
+* stakeholder and consulting delivery.
+
+That combination appears in current UK roles. Examples include finance-BI positions involving centralised group reporting, ERP data, Power BI, Fabric and replacing spreadsheet-based processes; other roles combine Business Central functional consulting with Power BI, requirements gathering, training and process improvement. Current advertisements place examples around £40,000–£65,000 for Business Central and Power BI consulting and £50,000–£80,000 for more experienced finance-BI roles. ([JobLeads][2])
+
+The upper ranges consistently require more than certification: end-to-end ownership, several years of platform experience, stakeholder leadership and full implementation lifecycle delivery. Power BI Developer vacancies in England showed a median advertised salary of approximately £52,500 in the six months to late July 2026. ([IT Jobs Watch][3])
+
+## Staged professional identity
+
+### Your defensible identity now
+
+> **Data & Analytics Engineer focused on Finance Reporting, Power BI, Microsoft Fabric, ERP Analytics and Applied AI**
+
+### Target identity after seven months of evidence
+
+> **Microsoft Data & Business Applications Consultant specialising in Finance Analytics, Fabric, Power BI and Business Central**
+
+### Longer-term progression
+
+> **Enterprise Data, ERP and AI Transformation Consultant**
+
+Then potentially:
+
+> **Technology and Data Value-Creation Consultant for acquisitions and portfolio companies**
+
+This is the credible bridge to your investment ambitions.
+
+discoverIE’s acquisition-led, decentralised model exposes you to issues directly relevant to future investment and value-creation work:
+
+* integrating acquired businesses;
+* standardising reporting;
+* assessing systems;
+* improving operational efficiency;
+* monitoring performance;
+* implementing governance;
+* connecting local operations with group oversight. ([discoverIE Group][1])
+
+That is a stronger route toward investment advisory than immediately presenting yourself as an “investor broker.”
+
+---
+
+# 4. Recommended headline strategy
+
+## Use now
+
+> **Data & Analytics Engineer | Power BI, Microsoft Fabric, Finance Reporting & ERP Analytics | Business Applications | Applied AI**
+
+This is honest about your present level while directing recruiters toward the correct jobs.
+
+## Use after PL-300, DP-600 and demonstrable delivery
+
+> **Microsoft Data & Business Applications Consultant | Finance Analytics, Fabric, Power BI & Business Central**
+
+Do not put all of the following in one headline:
+
+* data scientist;
+* data engineer;
+* AI engineer;
+* MLOps;
+* LLMOps;
+* telecom engineer;
+* ERP consultant;
+* investment specialist.
+
+A strong professional brand is not a complete list of everything you know. It is a clear statement of what the market should hire you to do.
+
+---
+
+# 5. Your certification programme needs immediate control
+
+The six programmes should not be treated equally.
+
+CFI describes FMVA as approximately 100–120 hours in one comparison, while another CFI page estimates 120–200 hours. Its BIDA programme is separately estimated at around 150–200 hours. Therefore, FMVA and BIDA alone may require approximately 250–400 hours before accounting for PL-300, DP-600, DAMA, AI Business Professional, your master’s and live project delivery. ([Corporate Finance Institute][4])
+
+Across approximately 30 weeks, ten study hours per week gives only 300 hours.
+
+> **You cannot maximise your output by maximising your enrolments.**
+
+## Revised certification decisions
+
+| Programme                                       |       Fit with immediate career | Decision                                             | Required evidence alongside it                                             |
+| ----------------------------------------------- | ------------------------------: | ---------------------------------------------------- | -------------------------------------------------------------------------- |
+| **PL-300**                                      |                       Very high | **Complete first**                                   | One reconciled, governed finance-reporting solution                        |
+| **DP-600**                                      |                       Very high | **Complete second**                                  | A Fabric analytical architecture or controlled proof of concept            |
+| **FMVA**                                        |                          Medium | **Continue at a controlled pace**                    | Driver-based forecast, financial model or business case                    |
+| **DAMA/CDMP Associate learning**                |                     Medium-high | **Apply the material; defer the exam if necessary**  | KPI dictionary, lineage, data-quality rules and ownership model            |
+| **BIDA**                                        | Low incremental value right now | **Pause**                                            | Revisit only after PL-300/DP-600 and the extension                         |
+| **AI Business Professional**                    |                   Low-to-medium | **Optional quick supplement after core credentials** | AI opportunity-assessment framework and one controlled use case            |
+| **MB-800**                                      |           Potentially very high | **Conditional third credential**                     | Genuine Business Central configuration, UAT, migration or process exposure |
+| **Oracle FCC 2026 Implementation Professional** |                Potentially high | **Conditional employer-supported option**            | Actual FCC administration, configuration or integration responsibility     |
+
+### PL-300
+
+Microsoft describes PL-300 around preparing, modelling, visualising, analysing, managing and securing Power BI data, working with stakeholders and delivering understandable business value. That maps directly to your existing reporting work. ([Microsoft Learn][5])
+
+### DP-600
+
+DP-600 concerns enterprise analytical assets including semantic models, warehouses and lakehouses, together with stakeholder requirements, security and SQL/KQL/DAX. It should be paired with a real Fabric implementation or pilot rather than studied as theory. ([Microsoft Learn][6])
+
+### FMVA
+
+FMVA supports your long-term finance and investment objectives. It can strengthen:
+
+* financial statements;
+* forecasting;
+* valuation;
+* business cases;
+* financial modelling;
+* executive presentation.
+
+But it is **not a substitute for group accounting, consolidation, controls or IFRS knowledge**.
+
+For your current discoverIE work, financial-reporting literacy may eventually be better supplemented by targeted training in:
+
+* group consolidation;
+* management accounting;
+* IFRS;
+* foreign currency;
+* intercompany eliminations;
+* acquisition accounting;
+* management reporting controls.
+
+ACCA’s CertIFR, for example, is an online IFRS introduction typically requiring around 20 hours, but ACCA also says a financial-reporting background is recommended. It should therefore be considered only after discussion with a Group Finance mentor, not added automatically. ([ACCA Global][7])
+
+### BIDA
+
+BIDA includes Power Query, Power BI, DAX, SQL, Python, Tableau and general data analysis. Much of that overlaps with:
+
+* your MSc;
+* your data-engineering history;
+* PL-300;
+* DP-600;
+* your existing analytics work.
+
+CFI’s own programme information shows a broad curriculum and continuing programme changes. It would add workload more than differentiation during these seven months. ([Corporate Finance Institute][8])
+
+**Do not automatically begin BIDA when FMVA ends.**
+
+### AI Business Professional
+
+Microsoft classifies AI Business Professional as a **beginner-level** credential for using Microsoft 365 Copilot and generative-AI productivity tools without coding or application development. It may help demonstrate corporate AI literacy, but it does not validate AI engineering, machine learning or production AI. ([Microsoft Learn][9])
+
+Use it as a small supporting credential, not as a headline qualification.
+
+### MB-800
+
+MB-800 is more strategically relevant than BIDA where you are developing real Business Central responsibility. Microsoft’s current certification covers:
+
+* financial management;
+* sales and purchasing;
+* inventory;
+* fixed assets;
+* company setup;
+* data migration;
+* implementation-team collaboration;
+* reports, charts and integrations. ([Microsoft Learn][10])
+
+Do not take it solely because Vertec uses Business Central. Take it when you can genuinely connect the syllabus to work you have performed.
+
+### Oracle FCC
+
+Oracle currently offers a Financial Consolidation and Close 2026 Implementation Professional certification. It could become differentiating because the Microsoft-and-Oracle combination is less common. However, it is appropriate only where your responsibilities extend beyond consuming FCC outputs into implementation, administration, configuration or integration. ([Oracle University][11])
+
+### One correction to the previous plan
+
+PL-200 should no longer be a future target because Microsoft is retiring the Power Platform Functional Consultant Associate certification and exam on 31 August 2026. ([Microsoft Learn][12])
+
+---
+
+# 6. Your public assets should have different jobs
+
+| Asset              | Primary audience                               | Its job                                                       |
+| ------------------ | ---------------------------------------------- | ------------------------------------------------------------- |
+| **LinkedIn**       | Recruiters, hiring managers, business contacts | Make you discoverable and immediately classifiable            |
+| **CV**             | Specific employers                             | Prove fit for one job family                                  |
+| **Portfolio**      | Hiring managers and consulting leaders         | Demonstrate business problems, decisions and outcomes         |
+| **GitHub**         | Technical reviewers                            | Demonstrate engineering depth and implementation quality      |
+| **Newsletter**     | Professional network and future clients        | Demonstrate judgement and business communication              |
+| **Certifications** | Recruiters and platform partners               | Independently validate selected technical or domain knowledge |
+
+At present, each one tells a different story. They need to operate as a system.
+
+---
+
+# 7. LinkedIn: what should change
+
+## Keep
+
+* Your professional profile photograph.
+* The 500+ connection base.
+* Your newsletter and its existing subscribers.
+* discoverIE and University of Surrey visibility.
+* Your telecommunications history as a differentiator.
+
+## Change immediately
+
+### Banner
+
+Your current banner is effectively blank.
+
+Use a clean banner with:
+
+> **FINANCE ANALYTICS • POWER BI • MICROSOFT FABRIC • ERP & BUSINESS APPLICATIONS**
+
+Supporting line:
+
+> **Turning enterprise data into trusted decisions and practical business solutions**
+
+Do not include internal architecture, discoverIE branding or ten software logos.
+
+### About section
+
+The first paragraph should communicate your present commercial value:
+
+> I work across data, finance reporting and business applications, supporting Power BI reporting, ERP implementation and applied AI evaluation within an international listed engineering group. My focus is translating business requirements and fragmented operational data into trusted analytical products, clearer reporting and more efficient business processes.
+
+The remainder should establish:
+
+* your eight years are across **technology, telecommunications, systems and data**, not eight years exclusively in data science;
+* your current finance-reporting and ERP experience;
+* your Microsoft direction;
+* your stakeholder and consulting development;
+* your engineering foundation.
+
+### Experience
+
+Keep the official employment title accurate. Where appropriate, add a functional descriptor:
+
+> **Data Engineer — Finance Analytics & Business Applications**
+
+Use wording such as:
+
+* supporting;
+* contributing;
+* designing;
+* developing;
+* analysing;
+* coordinating;
+* validating.
+
+Use “leading” only where you have formal responsibility.
+
+### Featured section
+
+It should eventually contain:
+
+1. A one-page professional capability statement.
+2. One flagship finance analytics case study.
+3. One Fabric or ERP reference architecture.
+4. Your newsletter.
+
+### Top skills
+
+Recommended top five:
+
+1. Microsoft Power BI
+2. Data Modelling
+3. Microsoft Fabric
+4. Business Analysis
+5. ERP / Dynamics 365 Business Central
+
+Applied AI and data governance can follow.
+
+“Big Data” and “Decision Sciences” are too general to lead the profile you now need.
+
+### Recommendations
+
+Obtain specific recommendations from:
+
+* your line manager;
+* a Group Finance stakeholder;
+* the project manager or business analyst from the ERP workstream.
+
+The recommendations should mention:
+
+* translating requirements;
+* communication;
+* reliability;
+* business understanding;
+* stakeholder support;
+* quality of reporting;
+* delivery ownership.
+
+---
+
+# 8. CV: complete structural rebuild
+
+The current CV should not be lightly edited. It needs a new two-page architecture. 
+
+## Page 1
+
+1. Name, Guildford/Surrey, email, LinkedIn, GitHub.
+2. Target professional summary.
+3. Core capabilities aligned with the vacancy.
+4. discoverIE experience occupying approximately one-third to one-half of the page.
+5. Selected previous TTCL achievements.
+
+## Page 2
+
+1. Remaining employment history.
+2. MSc and BSc.
+3. Completed certifications.
+4. Certifications in progress, clearly labelled.
+5. No more than three selected technical projects.
+6. Tools and platforms.
+
+Remove:
+
+* full residential address;
+* referee table;
+* referees’ personal contact details;
+* long lists of academic exercises;
+* unsupported outcome percentages;
+* generic claims such as “passionate” and “result-driven”;
+* credentials that cannot be verified.
+
+Create two targeted versions:
+
+### Version A
+
+> **Power BI / Fabric / Finance Analytics**
+
+### Version B
+
+> **ERP / Business Applications / Data & Reporting**
+
+A single CV trying to win data-science, data-engineering, BI, ERP and AI roles will continue to underperform.
+
+---
+
+# 9. Portfolio: replace rather than patch
+
+The current portfolio should temporarily be removed from LinkedIn and applications.
+
+A minimal holding page would be safer than the present version.
+
+## New one-page structure
+
+### Hero
+
+> **Boniphace Mkindi**
+> **Data & Analytics Engineer**
+
+> From fragmented ERP and finance data to governed analytics and intelligent business applications.
+
+### Capabilities
+
+* Finance Analytics & Power BI
+* Microsoft Fabric & Data Platforms
+* ERP & Business Applications
+* Applied AI & Data Governance
+
+### Case studies
+
+* Multi-entity finance reporting
+* Fabric finance analytics reference architecture
+* Business Central reporting and process implementation
+* AI opportunity evaluation framework
+* Telecom anomaly detection
+
+### Experience
+
+Concise timeline.
+
+### Credentials
+
+Two separate headings:
+
+* **Completed**
+* **Currently preparing**
+
+An enrolment is not a certification.
+
+### Writing
+
+Link to the renamed newsletter.
+
+### Contact
+
+* LinkedIn
+* GitHub
+* professional email
+* Guildford, Surrey
+
+No full postcode and no public telephone number.
+
+## Case-study format
+
+Every case study should show:
+
+1. Business context.
+2. Problem.
+3. Stakeholders.
+4. Constraints.
+5. Your responsibility.
+6. Architecture or approach.
+7. Controls and risks.
+8. Outcome.
+9. Lessons and limitations.
+
+Do not publish discoverIE data or internal architecture. Build equivalent examples using synthetic entities and figures.
+
+---
+
+# 10. GitHub: quality is more important than quantity
+
+Your recent anomaly-detection repository is substantially stronger than many older repositories. It has a package structure, tests, runbooks, safety controls and bronze/silver/gold data layers. That engineering discipline should become the standard for your future work.
+
+However, it names TTCL, refers to two Zabbix environments, describes intended extraction controls and university data movement, and includes environment-variable structures for API and SSH access. The example file does not expose actual credentials, but the operational context may still create confidentiality or governance concerns.
+
+Recommended action:
+
+> Make the repository private until you have written permission, or generalise it into a vendor-neutral, synthetic “Telecom Operations Anomaly Detection Reference Architecture.”
+
+Your public GitHub should eventually pin only four to six repositories:
+
+1. `finance-analytics-powerbi-reference`
+2. `fabric-multi-entity-finance-platform`
+3. `business-central-analytics-demo`
+4. `ai-business-value-assessment`
+5. `telecom-anomaly-detection-reference`
+6. One high-quality MSc project
+
+Archive or unpin:
+
+* bootcamp exercises;
+* tutorial repositories;
+* empty repositories;
+* generic week-one lab notebooks;
+* copied upstream repositories;
+* old Docker-action forks;
+* projects with no useful README.
+
+The `practical-statistics-for-data-scientists-master` repository displays the original O’Reilly book repository content and authors. It does not provide meaningful evidence of your work and may confuse provenance when it is not presented as a fork. Archive it, remove it or fork the upstream project correctly.
+
+## Every retained repository needs
+
+* business problem;
+* architecture diagram;
+* your original contribution;
+* setup instructions;
+* tests;
+* security considerations;
+* limitations;
+* verified results;
+* licence;
+* clear dataset provenance.
+
+---
+
+# 11. Newsletter: retain the audience, change the editorial strategy
+
+The newsletter is an asset. Do not discard its subscribers.
+
+But “Daily AI-Data Science Decoded” reinforces the identity you are leaving behind. The metaphor-heavy headlines are creative, but they conceal the searchable professional topic. Some thumbnails also feel more like general social-media content than enterprise consulting material.
+
+Recommended new title:
+
+> **Data to Decisions: Enterprise Analytics, AI & Business Applications**
+
+Tagline:
+
+> Practical lessons on finance analytics, ERP, data governance and responsible AI.
+
+## Three editorial pillars
+
+### Finance analytics and reporting transformation
+
+* Power BI financial reporting
+* P&L and variance analysis
+* reporting governance
+* KPI definition
+* replacing uncontrolled spreadsheet processes
+* forecasting
+
+### ERP and business applications
+
+* Business Central implementation lessons
+* requirements gathering
+* process mapping
+* UAT
+* master data
+* adoption and training
+
+### Applied and responsible AI
+
+* when AI is appropriate;
+* when ordinary automation is better;
+* AI business cases;
+* data readiness;
+* model validation;
+* governance and human approval.
+
+Use direct searchable titles:
+
+> **Power BI Governance: Why Every Finance Transformation Needs a KPI Dictionary**
+
+rather than only:
+
+> **The Crystal Ball and the Weighing Scale**
+
+You can retain the metaphor as the subtitle.
+
+Publish weekly or fortnightly, not daily. Corporate credibility comes from depth and consistency, not volume.
+
+---
+
+# 12. Seven-month output strategy
+
+The result should not be six new badges.
+
+The result should be four independently defensible proofs.
+
+| Proof                                | Business delivery                                                            | Credential alignment                     |
+| ------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------- |
+| **1. Finance BI solution**           | Reconciled Power BI reporting for a controlled finance domain                | PL-300                                   |
+| **2. Fabric analytical platform**    | Governed ingestion, semantic model, security and deployment proof of concept | DP-600                                   |
+| **3. ERP/business application case** | Business Central reporting, process, migration or UAT contribution           | MB-800 or Oracle FCC, depending on role  |
+| **4. AI decision framework**         | One evaluated and controlled AI or forecasting use case                      | AI Business Professional as a supplement |
+
+Each proof should contain:
+
+* requirements;
+* data model;
+* architecture;
+* business definitions;
+* reconciliation;
+* security;
+* testing;
+* risks;
+* stakeholder approval;
+* measurable outcome;
+* public-safe case study.
+
+In listed-company finance, “breathtaking” should mean:
+
+> **trusted, timely, controlled, explainable and decision-relevant.**
+
+A beautiful report that cannot reconcile to FCC is not an innovation. It is a control risk.
+
+---
+
+# 13. Weekly achievement system
+
+Do not update every public channel every week.
+
+Maintain a private **Professional Evidence Ledger** with these fields:
+
+| Field             | Example                                               |
+| ----------------- | ----------------------------------------------------- |
+| Date              | Week ending 16 October                                |
+| Business problem  | Manual variance reporting across multiple files       |
+| Stakeholders      | Group Finance Controller and reporting team           |
+| Your contribution | Designed semantic model and standard measures         |
+| Artefact          | Power BI model, KPI dictionary, reconciliation report |
+| Baseline          | Four hours of manual preparation                      |
+| Result            | To be measured after implementation                   |
+| Technical skills  | DAX, Power Query, modelling, RLS                      |
+| Consulting skills | Requirements, demonstration, feedback                 |
+| Evidence          | Approval email, meeting minutes, usage metrics        |
+| Confidentiality   | Internal / public-safe / restricted                   |
+| Public version    | Generic lesson using synthetic data                   |
+
+## Publication cadence
+
+* **Evidence ledger:** weekly
+* **LinkedIn post:** weekly
+* **Newsletter:** fortnightly
+* **GitHub:** at meaningful project milestones
+* **Portfolio:** monthly or when a case study is ready
+* **CV:** monthly and for every target role
+
+This separates genuine professional development from performative activity.
+
+---
+
+# 14. Immediate priorities
+
+## Within 48 hours
+
+1. Remove the current portfolio link from applications and LinkedIn Featured.
+2. Replace the site with a simple holding page.
+3. Remove public phone numbers, exact addresses and referee information.
+4. Remove or verify every GitHub certification claim.
+5. Remove placeholder project links and third-party project attribution.
+6. Make the TTCL operational repository private or sanitise it.
+
+## Within one week
+
+1. Reconcile all employment dates and titles.
+2. Replace the LinkedIn headline.
+3. Rewrite the About section.
+4. Rewrite the discoverIE experience.
+5. Change the top skills.
+6. Freeze BIDA and all additional enrolments.
+7. Create the Professional Evidence Ledger.
+
+## Within one month
+
+1. Establish a reporting-transformation baseline with your manager.
+2. Define the first finance-reporting MVP.
+3. Build one public-safe synthetic finance case study.
+4. Complete the main PL-300 learning path.
+5. Request permission parameters for describing work publicly.
+6. Obtain one manager or stakeholder recommendation.
+
+---
+
+# Final strategic conclusion
+
+The strongest version of your story is not:
+
+> “I am learning data science, AI, cloud, finance, ERP and investment.”
+
+It is:
+
+> **“I combine an engineering and data background with practical experience in finance reporting, ERP and business applications. I am developing Microsoft Power BI and Fabric solutions that improve reporting, controls and decision-making across complex organisations.”**
+
+Your seven-month extension should create a progression from:
+
+> **Technically broad candidate**
+
+to:
+
+> **Evidence-backed Microsoft Finance Analytics and Business Applications professional**
+
+That is a coherent UK market position. It also gives you a credible future route into M&A integration, technology value creation, operational due diligence and eventually investment advisory.
+
+The no-callback issue still needs a separate funnel diagnosis. The next useful input is a sample of your most recent 20–30 applications showing job title, company, date, CV version, application outcome, advertised salary, location and whether sponsorship or unrestricted UK work rights were required.
+
+[1]: https://www.discoverieplc.com/investors/regulatory-news/regulatory-news-details/2026/Annual-Report--Accounts-2026--Notice-of-AGM/default.aspx "https://www.discoverieplc.com/investors/regulatory-news/regulatory-news-details/2026/Annual-Report--Accounts-2026--Notice-of-AGM/default.aspx"
+[2]: https://www.jobleads.com/gb/job/senior-finance-business-intelligence-analyst--liverpool--ecf06736347d1fd9e341099f65aaec4cb "https://www.jobleads.com/gb/job/senior-finance-business-intelligence-analyst--liverpool--ecf06736347d1fd9e341099f65aaec4cb"
+[3]: https://www.itjobswatch.co.uk/jobs/england/power%20bi%20developer.do "https://www.itjobswatch.co.uk/jobs/england/power%20bi%20developer.do"
+[4]: https://corporatefinanceinstitute.com/certifications/compare-certifications/ "https://corporatefinanceinstitute.com/certifications/compare-certifications/"
+[5]: https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/ "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/"
+[6]: https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/ "https://learn.microsoft.com/en-us/credentials/certifications/fabric-analytics-engineer-associate/"
+[7]: https://www.accaglobal.com/uk/en/qualifications/glance/certifr/how.html "https://www.accaglobal.com/uk/en/qualifications/glance/certifr/how.html"
+[8]: https://help.corporatefinanceinstitute.com/article/1130-bida-program-updates "https://help.corporatefinanceinstitute.com/article/1130-bida-program-updates"
+[9]: https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/ "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/"
+[10]: https://learn.microsoft.com/en-us/credentials/certifications/d365-business-central-functional-consultant-associate/ "https://learn.microsoft.com/en-us/credentials/certifications/d365-business-central-functional-consultant-associate/"
+[11]: https://education.oracle.com/fr/ouexam-pexam_1z0-1081-26/pexam_1Z0-1081-26 "https://education.oracle.com/fr/ouexam-pexam_1z0-1081-26/pexam_1Z0-1081-26"
+[12]: https://learn.microsoft.com/en-us/credentials/certifications/power-platform-functional-consultant-associate/ "https://learn.microsoft.com/en-us/credentials/certifications/power-platform-functional-consultant-associate/"
