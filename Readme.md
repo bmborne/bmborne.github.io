@@ -2,8 +2,8 @@
 
 Canonical public site for **Boniphace Mkindi — Data & Analytics Engineer**.
 
-- **Home** — positioning, experience, capabilities  
-- **Work** — evidence library (case scaffolds + synthetic visuals)
+- **Home** — positioning, experience, capabilities, CV download  
+- **Work** — evidence library (finance, Fabric, ERP, applied AI, engineering, writing)
 
 Live: [https://bmborne.github.io/](https://bmborne.github.io/)
 
@@ -22,7 +22,3 @@ python -m http.server 3000
 ## Deploy
 
 Push to `main` on `bmborne.github.io` (GitHub Pages).
-
-## Next evidence step
-
-**Phase B2:** synthetic multi-entity finance model + Power BI screenshots (see `Docs/WORK_PHASES.md`).

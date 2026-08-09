@@ -1,0 +1,7 @@
+# Local / private assets — do not publish
+*.docx
+assets/img/dating_profile_*.png
+assets/img/*.jfif
+assets/img/ChatGPT*.png
+.DS_Store
+**/__pycache__/
