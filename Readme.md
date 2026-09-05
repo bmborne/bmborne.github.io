@@ -2,8 +2,10 @@
 
 Canonical public site for **Boniphace Mkindi — Data & Analytics Engineer**.
 
-- **Home** — positioning, experience, capabilities, CV download  
-- **Work** — evidence library (finance, Fabric, ERP, applied AI, engineering, writing)
+One personal brand, two paths:
+
+- **Portfolio** — who I am, what I have done, how I think (`/`, `/work`, `/experience`, `/writing`, `/about`)
+- **Consulting** — how that experience could help an organisation (`/consulting`)
 
 Live: [https://bmborne.github.io/](https://bmborne.github.io/)
 
@@ -16,8 +18,10 @@ Work phases: `Docs/WORK_PHASES.md`
 python -m http.server 3000
 ```
 
-- Home: http://127.0.0.1:3000/  
-- Work: http://127.0.0.1:3000/work.html  
+- Home: http://127.0.0.1:3000/
+- Work: http://127.0.0.1:3000/work.html
+- Consulting: http://127.0.0.1:3000/consulting.html
+- Contact: http://127.0.0.1:3000/contact.html
 
 ## Deploy
 
