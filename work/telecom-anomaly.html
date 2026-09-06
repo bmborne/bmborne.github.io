@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/home.css?v=13">
+  <link rel="stylesheet" href="../assets/css/home.css?v=15">
   <link rel="stylesheet" href="../assets/css/work.css?v=13">
 </head>
 <body>
@@ -18,12 +18,20 @@
     <header class="site-top">
       <div>
         <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
-        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+        <p class="site-brand-sub">Business analytics &amp; solutions</p>
       </div>
-      <nav class="site-nav" aria-label="Site">
-        <a href="../index.html">Home</a>
-        <a href="../work.html" aria-current="page">Work</a>
-      </nav>
+      <div class="site-menus">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../work.html" aria-current="page">Work</a>
+          <a href="../consulting.html">Consulting</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <nav class="site-nav-more" aria-label="More pages">
+          <a href="../about.html">About</a>
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html">Writing</a>
+        </nav>
+      </div>
     </header>
 
     <div class="layout work-layout">
@@ -31,7 +39,7 @@
         <p class="case-back"><a href="../work.html#engineering">← Work · Engineering &amp; Research</a></p>
         <p class="chip">MSc research · Evidence published</p>
         <h1>Telecom operations anomaly detection</h1>
-        <p class="case-lede">Engineering research into safe handling of operational telemetry: anonymisation, layered data, tests and run controls. Supports the analytics career as engineering depth — not as the primary market lane.</p>
+        <p class="case-lede">Engineering research into safe handling of operational telemetry: anonymisation, layered data, tests and run controls. It shows the systems depth behind the analytics work.</p>
 
         <figure class="case-figure">
           <img src="../assets/img/work/telecom-flow.svg?v=3" width="720" height="280" alt="Layered pipeline from bronze tokenised ingest through silver and gold anomaly scores to a review view">
@@ -45,7 +53,7 @@
 
         <section class="case-block">
           <h2>The problem</h2>
-          <p>Without clear extraction controls, anonymisation and testable pipelines, anomaly work is hard to defend and risky to share.</p>
+          <p>Useful anomaly work needs clear extraction controls, anonymisation and testable pipelines.</p>
         </section>
 
         <section class="case-block">
@@ -59,13 +67,13 @@
             <li>Safety-conscious data handling and anonymisation patterns (site tokens only).</li>
             <li>Layered datasets: bronze ingest → silver clean/DQ → gold anomaly scores.</li>
             <li>Automated tests and documented run controls, including a dry-run gate.</li>
-            <li>Publish labelled stills from a synthetic dataset — not operator environments.</li>
+            <li>Publish labelled stills from a synthetic dataset.</li>
           </ul>
         </section>
 
         <section class="case-block">
           <h2>Architecture / model</h2>
-          <p>See the layered flow above. Evidence below is pipeline behaviour (volumes, scores, tests) — not a management dashboard.</p>
+          <p>See the layered flow above. Evidence below is pipeline behaviour: volumes, scores and tests.</p>
         </section>
 
         <section class="case-block">
@@ -117,7 +125,7 @@
 
         <section class="case-block">
           <h2>What I am learning</h2>
-          <p>How to keep detection work reviewable: privacy first, then layers, then scores — with tests that fail closed when safety gates are not met.</p>
+          <p>How to keep detection work reviewable: privacy first, then layers, then scores — with tests that fail closed until safety gates are met.</p>
         </section>
 
         <section class="case-block">
@@ -138,6 +146,15 @@
     </div>
 
     <footer class="foot">
+      <p class="foot-links">
+        <a href="../index.html">Home</a>
+        <a href="../work.html">Work</a>
+        <a href="../consulting.html">Consulting</a>
+        <a href="../about.html">About</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../writing.html">Writing</a>
+        <a href="../contact.html">Contact</a>
+      </p>
       <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
     </footer>
   </div>

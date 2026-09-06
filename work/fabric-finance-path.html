@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/home.css?v=13">
+  <link rel="stylesheet" href="../assets/css/home.css?v=15">
   <link rel="stylesheet" href="../assets/css/work.css?v=13">
 </head>
 <body>
@@ -18,12 +18,20 @@
     <header class="site-top">
       <div>
         <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
-        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+        <p class="site-brand-sub">Business analytics &amp; solutions</p>
       </div>
-      <nav class="site-nav" aria-label="Site">
-        <a href="../index.html">Home</a>
-        <a href="../work.html" aria-current="page">Work</a>
-      </nav>
+      <div class="site-menus">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../work.html" aria-current="page">Work</a>
+          <a href="../consulting.html">Consulting</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <nav class="site-nav-more" aria-label="More pages">
+          <a href="../about.html">About</a>
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html">Writing</a>
+        </nav>
+      </div>
     </header>
 
     <div class="layout work-layout">
@@ -35,7 +43,7 @@
 
         <figure class="case-figure">
           <img src="../assets/img/work/fabric-path.svg?v=3" width="720" height="200" alt="Architecture path from ERP-style sources through Fabric concepts to a semantic model and Power BI">
-          <figcaption>Architecture reference — the visual for this topic is the path, not a dashboard.</figcaption>
+          <figcaption>Architecture reference — the visual for this topic is the path.</figcaption>
         </figure>
 
         <section class="case-block">
@@ -45,7 +53,7 @@
 
         <section class="case-block">
           <h2>The problem</h2>
-          <p>When every team pulls its own files, definitions drift and reconciliation becomes the product instead of the report.</p>
+          <p>When every team pulls its own files, definitions drift and reconciliation takes the place of the report.</p>
         </section>
 
         <section class="case-block">
@@ -74,7 +82,7 @@
 
         <section class="case-block">
           <h2>Result</h2>
-          <p>Published conceptual walkthrough artefacts. This is not a live Fabric workspace screenshot.</p>
+          <p>Published conceptual walkthrough artefacts from the reference path.</p>
           <div class="evidence-grid two">
             <figure class="case-figure">
               <img src="../assets/img/work/fabric/01-lineage-board.png" width="800" height="384" alt="Five-stage lineage board from Landing to Power BI">
@@ -112,6 +120,15 @@
     </div>
 
     <footer class="foot">
+      <p class="foot-links">
+        <a href="../index.html">Home</a>
+        <a href="../work.html">Work</a>
+        <a href="../consulting.html">Consulting</a>
+        <a href="../about.html">About</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../writing.html">Writing</a>
+        <a href="../contact.html">Contact</a>
+      </p>
       <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
     </footer>
   </div>

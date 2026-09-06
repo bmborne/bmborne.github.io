@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/home.css?v=13">
+  <link rel="stylesheet" href="../assets/css/home.css?v=15">
   <link rel="stylesheet" href="../assets/css/work.css?v=13">
 </head>
 <body>
@@ -18,12 +18,20 @@
     <header class="site-top">
       <div>
         <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
-        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+        <p class="site-brand-sub">Business analytics &amp; solutions</p>
       </div>
-      <nav class="site-nav" aria-label="Site">
-        <a href="../index.html">Home</a>
-        <a href="../work.html" aria-current="page">Work</a>
-      </nav>
+      <div class="site-menus">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../work.html" aria-current="page">Work</a>
+          <a href="../consulting.html">Consulting</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <nav class="site-nav-more" aria-label="More pages">
+          <a href="../about.html">About</a>
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html">Writing</a>
+        </nav>
+      </div>
     </header>
 
     <div class="layout work-layout">
@@ -40,7 +48,7 @@
 
         <section class="case-block">
           <h2>Business context</h2>
-          <p>Multi-entity environments often need comparable management reporting across operating companies — actual vs budget, forecast, MTD/YTD and like-for-like views — without every team maintaining its own spreadsheet logic.</p>
+          <p>Multi-entity environments often need comparable management reporting across operating companies — actual vs budget, forecast, MTD/YTD and like-for-like views — from a shared set of definitions.</p>
         </section>
 
         <section class="case-block">
@@ -66,7 +74,7 @@
 
         <section class="case-block">
           <h2>Architecture / model</h2>
-          <p>See the flow above. Optional Fabric path lives under Data Platforms — not required for this demo.</p>
+          <p>See the flow above. The related Fabric path lives under Data Platforms.</p>
         </section>
 
         <section class="case-block">
@@ -92,10 +100,10 @@
 
         <section class="case-block">
           <h2>Result</h2>
-          <p>Published evidence from the synthetic model — management-style report stills (not employer dashboards). Native Power BI <code>.pbix</code> remains optional.</p>
+          <p>Published evidence from the synthetic model — management-style report stills. Native Power BI <code>.pbix</code> remains optional.</p>
           <figure class="case-figure">
             <img src="../assets/img/work/finance/finance-demo.gif" width="960" height="540" alt="Short looping demo cycling through synthetic finance report stills">
-            <figcaption>Short demo motion (GIF) cycling labelled synthetic stills — not a live Power BI embed.</figcaption>
+            <figcaption>Short demo motion (GIF) cycling labelled synthetic stills.</figcaption>
           </figure>
           <div class="evidence-grid two">
             <figure class="case-figure">
@@ -126,7 +134,7 @@
 
         <section class="case-block">
           <h2>What I am learning</h2>
-          <p>How to make finance reporting logic explicit and reviewable — so a semantic model is not just a dashboard, but a controlled analytical product.</p>
+          <p>How to make finance reporting logic explicit and reviewable, so a semantic model becomes a controlled analytical product.</p>
         </section>
 
         <section class="case-block">
@@ -147,6 +155,15 @@
     </div>
 
     <footer class="foot">
+      <p class="foot-links">
+        <a href="../index.html">Home</a>
+        <a href="../work.html">Work</a>
+        <a href="../consulting.html">Consulting</a>
+        <a href="../about.html">About</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../writing.html">Writing</a>
+        <a href="../contact.html">Contact</a>
+      </p>
       <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
     </footer>
   </div>

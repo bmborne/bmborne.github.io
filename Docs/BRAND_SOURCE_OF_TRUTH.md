@@ -88,7 +88,7 @@ Featured LinkedIn links (advisory): portfolio → bmborne.io ; consulting → bm
 
 ## Education
 
-**Completed:** MSc Data Science, University of Surrey (2026).  
+**Completed:** MSc Data Science, University of Surrey (Sep 2024 – Sep 2026).  
 **Completed:** BSc Electronics & Telecommunication Engineering, St. Joseph's College of Engineering (2013–2017).
 
 ## Professional development labels

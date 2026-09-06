@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/home.css?v=13">
+  <link rel="stylesheet" href="../assets/css/home.css?v=15">
   <link rel="stylesheet" href="../assets/css/work.css?v=13">
 </head>
 <body>
@@ -18,12 +18,20 @@
     <header class="site-top">
       <div>
         <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
-        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+        <p class="site-brand-sub">Business analytics &amp; solutions</p>
       </div>
-      <nav class="site-nav" aria-label="Site">
-        <a href="../index.html">Home</a>
-        <a href="../work.html" aria-current="page">Work</a>
-      </nav>
+      <div class="site-menus">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../work.html">Work</a>
+          <a href="../consulting.html">Consulting</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <nav class="site-nav-more" aria-label="More pages">
+          <a href="../about.html">About</a>
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html" aria-current="page">Writing</a>
+        </nav>
+      </div>
     </header>
 
     <div class="layout work-layout">
@@ -31,23 +39,23 @@
         <p class="case-back"><a href="../work.html#writing">← Work · Writing</a></p>
         <p class="chip">Writing · From finished work</p>
         <h1>Notes tied to published evidence</h1>
-        <p class="case-lede">Short on-site notes that follow finished cases. Medium or newsletter expansions can reuse these once posted — this page does not invent external article URLs.</p>
+        <p class="case-lede">Short on-site notes that follow finished cases. External posts will be linked here when they are published.</p>
 
         <section class="case-block">
-          <h2>1. Why synthetic finance demos beat fake impact claims</h2>
-          <p>Recruiters can review a dimensional model and labelled stills. They cannot verify invented “£2.4m saved” lines. The finance case keeps figures synthetic and the logic visible.</p>
+          <h2>1. Why a reviewable finance demo is useful</h2>
+          <p>A dimensional model and labelled stills can be inspected. The finance case keeps figures synthetic and the logic visible.</p>
           <p class="evidence-note"><a href="finance-reporting.html">Source case: Multi-entity finance analytics →</a></p>
         </section>
 
         <section class="case-block">
-          <h2>2. ERP go-live is not the same as reporting readiness</h2>
-          <p>Configuration can finish while sales, purchasing and inventory views still fail trust tests. The ERP case separates reporting/validation contribution from full Business Central ownership.</p>
+          <h2>2. Reporting readiness after ERP go-live</h2>
+          <p>After configuration finishes, finance and operations still need trustworthy sales, purchasing and inventory views. The ERP case shows the reporting and validation work that makes those views usable.</p>
           <p class="evidence-note"><a href="erp-business-apps.html">Source case: ERP reporting &amp; Business Central support →</a></p>
         </section>
 
         <section class="case-block">
           <h2>3. Hold is a valid AI decision</h2>
-          <p>The opportunity frame scores value and readiness against complexity and risk. “Hold” protects delivery capacity when data or operational risk is not ready.</p>
+          <p>The opportunity frame scores value and readiness against complexity and risk. “Hold” protects delivery capacity while data or operational risk still needs work.</p>
           <p class="evidence-note"><a href="ai-opportunity.html">Source case: Applied AI opportunity assessment →</a></p>
         </section>
 
@@ -69,6 +77,15 @@
     </div>
 
     <footer class="foot">
+      <p class="foot-links">
+        <a href="../index.html">Home</a>
+        <a href="../work.html">Work</a>
+        <a href="../consulting.html">Consulting</a>
+        <a href="../about.html">About</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../writing.html">Writing</a>
+        <a href="../contact.html">Contact</a>
+      </p>
       <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
     </footer>
   </div>

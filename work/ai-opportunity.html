@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/home.css?v=13">
+  <link rel="stylesheet" href="../assets/css/home.css?v=15">
   <link rel="stylesheet" href="../assets/css/work.css?v=13">
 </head>
 <body>
@@ -18,12 +18,20 @@
     <header class="site-top">
       <div>
         <a class="site-brand" href="../index.html">Boniphace Mkindi</a>
-        <p class="site-brand-sub">Data &amp; Analytics Engineer</p>
+        <p class="site-brand-sub">Business analytics &amp; solutions</p>
       </div>
-      <nav class="site-nav" aria-label="Site">
-        <a href="../index.html">Home</a>
-        <a href="../work.html" aria-current="page">Work</a>
-      </nav>
+      <div class="site-menus">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="../work.html" aria-current="page">Work</a>
+          <a href="../consulting.html">Consulting</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <nav class="site-nav-more" aria-label="More pages">
+          <a href="../about.html">About</a>
+          <a href="../experience.html">Experience</a>
+          <a href="../writing.html">Writing</a>
+        </nav>
+      </div>
     </header>
 
     <div class="layout work-layout">
@@ -35,17 +43,17 @@
 
         <figure class="case-figure">
           <img src="../assets/img/work/ai/01-scoring-board.png" width="800" height="432" alt="AI opportunity scoring board with value readiness complexity risk and Pilot Assess Hold decisions">
-          <figcaption>Assessment board — the visual for this topic is the decision frame, not a report dashboard.</figcaption>
+          <figcaption>Assessment board — the visual for this topic is the decision frame.</figcaption>
         </figure>
 
         <section class="case-block">
           <h2>Business context</h2>
-          <p>Teams generate more AI ideas than they can safely deliver. Without a shared assessment language, effort drifts toward novelty instead of decisions that improve finance or operations.</p>
+          <p>Teams generate more AI ideas than they can safely deliver. A shared assessment language keeps effort on decisions that improve finance or operations.</p>
         </section>
 
         <section class="case-block">
           <h2>The problem</h2>
-          <p>Ideas arrive without a consistent way to judge business value, data readiness and operational risk — so weak cases consume the same attention as strong ones.</p>
+          <p>Ideas need a consistent way to judge business value, data readiness and operational risk, so attention stays on the strongest cases.</p>
         </section>
 
         <section class="case-block">
@@ -59,7 +67,7 @@
             <li>Score each idea 1–5 on value, data readiness, complexity and operational risk.</li>
             <li>Compute a simple priority score that rewards value and readiness, penalises complexity and risk.</li>
             <li>Map to Pilot / Assess / Hold decisions for stakeholder conversations.</li>
-            <li>Keep governance explicit: automation only where the frame justifies it.</li>
+            <li>Keep governance explicit: automation where the frame justifies it.</li>
           </ul>
         </section>
 
@@ -67,8 +75,8 @@
           <h2>Controls</h2>
           <ul>
             <li>Shared criteria before tooling choices</li>
-            <li>Hold is a valid outcome (not a failure)</li>
-            <li>Examples are synthetic — not deployed client models</li>
+            <li>Hold is a valid outcome</li>
+            <li>Examples are synthetic, built for portfolio evidence</li>
           </ul>
         </section>
 
@@ -115,6 +123,15 @@
     </div>
 
     <footer class="foot">
+      <p class="foot-links">
+        <a href="../index.html">Home</a>
+        <a href="../work.html">Work</a>
+        <a href="../consulting.html">Consulting</a>
+        <a href="../about.html">About</a>
+        <a href="../experience.html">Experience</a>
+        <a href="../writing.html">Writing</a>
+        <a href="../contact.html">Contact</a>
+      </p>
       <p>&copy; <span id="year"></span> Boniphace Mkindi</p>
     </footer>
   </div>
